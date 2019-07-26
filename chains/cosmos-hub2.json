@@ -1,0 +1,21 @@
+{
+  "did": "did:cosmos:cosmos-hub2",
+  "name": "Cosmos Hub",
+  "network": "cosmos-hub2",
+  "interface": "cosmos",
+  "coins": [
+    {
+      "name": "Atom",
+      "symbol": "ATM",
+      "denom": "uatom",
+      "granularity": 9
+    }
+  ],
+  "rpc": [
+    "http://178.128.246.154:26657"
+  ],
+  "custom": {
+    "lcd": "http://178.128.246.154:1317",
+    "moniker": "cosmos-do-sentryz1"
+  }
+}
