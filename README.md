@@ -1,6 +1,6 @@
-# cosmos-chainid-registry
+# interchain-registry
 
-Registry for Cosmos Chain IDs
+Standardized registry for multi-interface blockchains
 
 ## Examples
 
