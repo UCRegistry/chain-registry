@@ -1,0 +1,21 @@
+{
+  "did": "did:ethr:eip155-42",
+  "name": "Ethereum Testnet Kovan",
+  "network": "eip155-42",
+  "interface": "evm",
+  "coins": [
+    {
+      "name": "Kovan Ether",
+      "symbol": "KOV",
+      "denom": "wei",
+      "granularity": 18
+    }
+  ],
+  "rpc": [
+    "https://kovan.infura.io/v3/${INFURA_API_KEY}"
+  ],
+  "custom": {
+    "chainId": 42,
+    "networkId": 42
+  }
+}

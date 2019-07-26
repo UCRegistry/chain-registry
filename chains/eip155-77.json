@@ -1,0 +1,21 @@
+{
+  "did": "did:ethr:eip155-77",
+  "name": "POA Network Sokol",
+  "network": "eip155-77",
+  "interface": "evm",
+  "coins": [
+    {
+      "name": "POA Sokol Ether",
+      "symbol": "POA",
+      "denom": "wei",
+      "granularity": 18
+    }
+  ],
+  "rpc": [
+    "https://sokol.poa.network"
+  ],
+  "custom": {
+    "chainId": 77,
+    "networkId": 77
+  }
+}

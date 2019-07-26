@@ -1,0 +1,22 @@
+{
+  "did": "did:ethr:eip155-977",
+  "name": "Nepal Blockchain Network",
+  "network": "eip155-977",
+  "interface": "evm",
+  "coins": [
+    {
+      "name": "Nepal Blockchain Network Ether",
+      "symbol": "YETI",
+      "denom": "wei",
+      "granularity": 18
+    }
+  ],
+  "rpc": [
+    "https://api.nepalblockchain.dev",
+    "https://api.nepalblockchain.network"
+  ],
+  "custom": {
+    "chainId": 977,
+    "networkId": 977
+  }
+}

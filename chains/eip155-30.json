@@ -1,0 +1,22 @@
+{
+  "did": "did:ethr:eip155-30",
+  "name": "RSK Mainnet",
+  "network": "eip155-30",
+  "interface": "evm",
+  "coins": [
+    {
+      "name": "RSK Mainnet Ether",
+      "symbol": "RSK",
+      "denom": "wei",
+      "granularity": 18
+    }
+  ],
+  "rpc": [
+    "https://public-node.rsk.co",
+    "https://mycrypto.rsk.co"
+  ],
+  "custom": {
+    "chainId": 30,
+    "networkId": 30
+  }
+}

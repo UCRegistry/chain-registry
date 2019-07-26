@@ -1,0 +1,23 @@
+{
+  "did": "did:ethr:eip155-5",
+  "name": "Ethereum Testnet Görli",
+  "network": "eip155-5",
+  "interface": "evm",
+  "coins": [
+    {
+      "name": "Görli Ether",
+      "symbol": "GOR",
+      "denom": "wei",
+      "granularity": 18
+    }
+  ],
+  "rpc": [
+    "https://rpc.goerli.mudit.blog/",
+    "https://rpc.slock.it/goerli ",
+    "https://goerli.prylabs.net/"
+  ],
+  "custom": {
+    "chainId": 5,
+    "networkId": 5
+  }
+}

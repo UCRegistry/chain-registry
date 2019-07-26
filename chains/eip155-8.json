@@ -1,0 +1,21 @@
+{
+  "did": "did:ethr:eip155-8",
+  "name": "Ubiq Network Mainnet",
+  "network": "eip155-8",
+  "interface": "evm",
+  "coins": [
+    {
+      "name": "Ubiq Ether",
+      "symbol": "UBQ",
+      "denom": "wei",
+      "granularity": 18
+    }
+  ],
+  "rpc": [
+    "https://pyrus2.ubiqscan.io"
+  ],
+  "custom": {
+    "chainId": 8,
+    "networkId": 1
+  }
+}

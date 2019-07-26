@@ -1,0 +1,21 @@
+{
+  "did": "did:ethr:eip155-60",
+  "name": "GoChain",
+  "network": "eip155-60",
+  "interface": "evm",
+  "coins": [
+    {
+      "name": "GoChain Ether",
+      "symbol": "GO",
+      "denom": "wei",
+      "granularity": 18
+    }
+  ],
+  "rpc": [
+    "https://rpc.gochain.io"
+  ],
+  "custom": {
+    "chainId": 60,
+    "networkId": 60
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "did": "did:ethr:eip155-76",
+  "name": "Mix",
+  "network": "eip155-76",
+  "interface": "evm",
+  "coins": [
+    {
+      "name": "Mix Ether",
+      "symbol": "MIX",
+      "denom": "wei",
+      "granularity": 18
+    }
+  ],
+  "rpc": [
+    "https://rpc2.mix-blockchain.org:8647"
+  ],
+  "custom": {
+    "chainId": 76,
+    "networkId": 76
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "did": "did:ethr:eip155-269",
+  "name": "High Performance Blockchain",
+  "network": "eip155-269",
+  "interface": "evm",
+  "coins": [
+    {
+      "name": "High Performance Blockchain Ether",
+      "symbol": "HPB",
+      "denom": "wei",
+      "granularity": 18
+    }
+  ],
+  "rpc": [
+    "https://node.hpb.blue"
+  ],
+  "custom": {
+    "chainId": 269,
+    "networkId": 100
+  }
+}

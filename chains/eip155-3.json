@@ -1,0 +1,21 @@
+{
+  "did": "did:ethr:eip155-3",
+  "name": "Ethereum Testnet Ropsten",
+  "network": "eip155-3",
+  "interface": "evm",
+  "coins": [
+    {
+      "name": "Ropsten Ether",
+      "symbol": "ROP",
+      "denom": "wei",
+      "granularity": 18
+    }
+  ],
+  "rpc": [
+    "https://ropsten.infura.io/v3/${INFURA_API_KEY}"
+  ],
+  "custom": {
+    "chainId": 3,
+    "networkId": 3
+  }
+}

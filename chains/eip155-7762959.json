@@ -1,0 +1,21 @@
+{
+  "did": "did:ethr:eip155-7762959",
+  "name": "Musicoin",
+  "network": "eip155-7762959",
+  "interface": "evm",
+  "coins": [
+    {
+      "name": "Musicoin",
+      "symbol": "MUSIC",
+      "denom": "wei",
+      "granularity": 18
+    }
+  ],
+  "rpc": [
+    "https://mewapi.musicoin.tw"
+  ],
+  "custom": {
+    "chainId": 7762959,
+    "networkId": 7762959
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "did": "did:ethr:eip155-64",
+  "name": "Ellaism",
+  "network": "eip155-64",
+  "interface": "evm",
+  "coins": [
+    {
+      "name": "Ellaism Ether",
+      "symbol": "ELLA",
+      "denom": "wei",
+      "granularity": 18
+    }
+  ],
+  "rpc": [
+    "https://jsonrpc.ellaism.org"
+  ],
+  "custom": {
+    "chainId": 64,
+    "networkId": 64
+  }
+}

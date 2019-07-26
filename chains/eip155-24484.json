@@ -1,0 +1,21 @@
+{
+  "did": "did:ethr:eip155-24484",
+  "name": "Webchain",
+  "network": "eip155-24484",
+  "interface": "evm",
+  "coins": [
+    {
+      "name": "Webchain Ether",
+      "symbol": "WEB",
+      "denom": "wei",
+      "granularity": 18
+    }
+  ],
+  "rpc": [
+    "https://node1.webchain.network"
+  ],
+  "custom": {
+    "chainId": 24484,
+    "networkId": 37129
+  }
+}

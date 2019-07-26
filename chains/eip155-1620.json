@@ -1,0 +1,21 @@
+{
+  "did": "did:ethr:eip155-1620",
+  "name": "Atheios",
+  "network": "eip155-1620",
+  "interface": "evm",
+  "coins": [
+    {
+      "name": "Atheios Ether",
+      "symbol": "ATH",
+      "denom": "wei",
+      "granularity": 18
+    }
+  ],
+  "rpc": [
+    "https://wallet.atheios.com:8797"
+  ],
+  "custom": {
+    "chainId": 1620,
+    "networkId": 11235813
+  }
+}

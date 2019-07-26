@@ -1,0 +1,21 @@
+{
+  "did": "did:ethr:eip155-11",
+  "name": "Metadium Mainnet",
+  "network": "eip155-11",
+  "interface": "evm",
+  "coins": [
+    {
+      "name": "Metadium Mainnet Ether",
+      "symbol": "META",
+      "denom": "wei",
+      "granularity": 18
+    }
+  ],
+  "rpc": [
+    "https://api.metadium.com/prod"
+  ],
+  "custom": {
+    "chainId": 11,
+    "networkId": 11
+  }
+}

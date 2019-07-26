@@ -1,0 +1,21 @@
+{
+  "did": "did:ethr:eip155-163",
+  "name": "Lightstreams Mainnet",
+  "network": "eip155-163",
+  "interface": "evm",
+  "coins": [
+    {
+      "name": "Lightstreams PHT",
+      "symbol": "PHT",
+      "denom": "wei",
+      "granularity": 18
+    }
+  ],
+  "rpc": [
+    "https://node.mainnet.lightstreams.io"
+  ],
+  "custom": {
+    "chainId": 163,
+    "networkId": 163
+  }
+}

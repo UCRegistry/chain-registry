@@ -1,0 +1,22 @@
+{
+  "did": "did:ethr:eip155-31",
+  "name": "RSK Testnet",
+  "network": "eip155-31",
+  "interface": "evm",
+  "coins": [
+    {
+      "name": "RSK Testnet Ether",
+      "symbol": "TRSK",
+      "denom": "wei",
+      "granularity": 18
+    }
+  ],
+  "rpc": [
+    "https://public-node.testnet.rsk.co",
+    "https://mycrypto.testnet.rsk.co"
+  ],
+  "custom": {
+    "chainId": 31,
+    "networkId": 31
+  }
+}

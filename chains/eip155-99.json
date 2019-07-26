@@ -1,0 +1,21 @@
+{
+  "did": "did:ethr:eip155-99",
+  "name": "POA Network Core",
+  "network": "eip155-99",
+  "interface": "evm",
+  "coins": [
+    {
+      "name": "POA Network Core Ether",
+      "symbol": "SKL",
+      "denom": "wei",
+      "granularity": 18
+    }
+  ],
+  "rpc": [
+    "https://core.poa.network"
+  ],
+  "custom": {
+    "chainId": 99,
+    "networkId": 99
+  }
+}

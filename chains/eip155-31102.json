@@ -1,0 +1,21 @@
+{
+  "did": "did:ethr:eip155-31102",
+  "name": "Ethersocial Network",
+  "network": "eip155-31102",
+  "interface": "evm",
+  "coins": [
+    {
+      "name": "Ethersocial Network Ether",
+      "symbol": "ESN",
+      "denom": "wei",
+      "granularity": 18
+    }
+  ],
+  "rpc": [
+    "https://api.esn.gonspool.com"
+  ],
+  "custom": {
+    "chainId": 31102,
+    "networkId": 1
+  }
+}

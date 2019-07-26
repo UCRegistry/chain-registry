@@ -1,0 +1,21 @@
+{
+  "did": "did:ethr:eip155-88",
+  "name": "TomoChain",
+  "network": "eip155-88",
+  "interface": "evm",
+  "coins": [
+    {
+      "name": "TomoChain Ether",
+      "symbol": "TOMO",
+      "denom": "wei",
+      "granularity": 18
+    }
+  ],
+  "rpc": [
+    "https://core.tomocoin.io"
+  ],
+  "custom": {
+    "chainId": 88,
+    "networkId": 88
+  }
+}

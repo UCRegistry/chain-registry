@@ -1,0 +1,21 @@
+{
+  "did": "did:ethr:eip155-13371337",
+  "name": "PepChain Churchill",
+  "network": "eip155-13371337",
+  "interface": "evm",
+  "coins": [
+    {
+      "name": "PepChain Churchill Ether",
+      "symbol": "TPEP",
+      "denom": "wei",
+      "granularity": 18
+    }
+  ],
+  "rpc": [
+    "https://churchill-rpc.pepchain.io"
+  ],
+  "custom": {
+    "chainId": 13371337,
+    "networkId": 13371337
+  }
+}

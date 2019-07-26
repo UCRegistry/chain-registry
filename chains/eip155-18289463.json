@@ -1,0 +1,21 @@
+{
+  "did": "did:ethr:eip155-18289463",
+  "name": "IOLite",
+  "network": "eip155-18289463",
+  "interface": "evm",
+  "coins": [
+    {
+      "name": "IOLite Ether",
+      "symbol": "ILT",
+      "denom": "wei",
+      "granularity": 18
+    }
+  ],
+  "rpc": [
+    "https://net.iolite.io"
+  ],
+  "custom": {
+    "chainId": 18289463,
+    "networkId": 18289463
+  }
+}

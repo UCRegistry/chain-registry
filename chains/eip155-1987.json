@@ -1,0 +1,21 @@
+{
+  "did": "did:ethr:eip155-1987",
+  "name": "EtherGem",
+  "network": "eip155-1987",
+  "interface": "evm",
+  "coins": [
+    {
+      "name": "EtherGem Ether",
+      "symbol": "EGEM",
+      "denom": "wei",
+      "granularity": 18
+    }
+  ],
+  "rpc": [
+    "https://jsonrpc.egem.io/custom"
+  ],
+  "custom": {
+    "chainId": 1987,
+    "networkId": 1987
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "did": "did:ethr:eip155-28945486",
+  "name": "Auxilium Network Mainnet",
+  "network": "eip155-28945486",
+  "interface": "evm",
+  "coins": [
+    {
+      "name": "Auxilium coin",
+      "symbol": "AUX",
+      "denom": "wei",
+      "granularity": 18
+    }
+  ],
+  "rpc": [
+    "https://rpc.auxilium.global"
+  ],
+  "custom": {
+    "chainId": 28945486,
+    "networkId": 28945486
+  }
+}

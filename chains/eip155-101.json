@@ -1,0 +1,21 @@
+{
+  "did": "did:ethr:eip155-101",
+  "name": "EtherInc",
+  "network": "eip155-101",
+  "interface": "evm",
+  "coins": [
+    {
+      "name": "EtherInc Ether",
+      "symbol": "ETI",
+      "denom": "wei",
+      "granularity": 18
+    }
+  ],
+  "rpc": [
+    "https://api.einc.io/jsonrpc/mainnet"
+  ],
+  "custom": {
+    "chainId": 101,
+    "networkId": 1
+  }
+}

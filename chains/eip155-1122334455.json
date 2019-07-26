@@ -1,0 +1,22 @@
+{
+  "did": "did:ethr:eip155-1122334455",
+  "name": "IPOS Network",
+  "network": "eip155-1122334455",
+  "interface": "evm",
+  "coins": [
+    {
+      "name": "IPOS Network Ether",
+      "symbol": "IPOS",
+      "denom": "wei",
+      "granularity": 18
+    }
+  ],
+  "rpc": [
+    "https://rpc.iposlab.com",
+    "https://rpc2.iposlab.com"
+  ],
+  "custom": {
+    "chainId": 1122334455,
+    "networkId": 1122334455
+  }
+}

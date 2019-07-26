@@ -1,0 +1,21 @@
+{
+  "did": "did:ethr:eip155-200625",
+  "name": "Akaroma",
+  "network": "eip155-200625",
+  "interface": "evm",
+  "coins": [
+    {
+      "name": "Akaroma Ether",
+      "symbol": "AKA",
+      "denom": "wei",
+      "granularity": 18
+    }
+  ],
+  "rpc": [
+    "https://remote.akroma.io"
+  ],
+  "custom": {
+    "chainId": 200625,
+    "networkId": 200625
+  }
+}

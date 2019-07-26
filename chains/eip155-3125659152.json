@@ -1,0 +1,21 @@
+{
+  "did": "did:ethr:eip155-3125659152",
+  "name": "Pirl",
+  "network": "eip155-3125659152",
+  "interface": "evm",
+  "coins": [
+    {
+      "name": "Pirl Ether",
+      "symbol": "PIRL",
+      "denom": "wei",
+      "granularity": 18
+    }
+  ],
+  "rpc": [
+    "https://wallrpc.pirl.io"
+  ],
+  "custom": {
+    "chainId": 3125659152,
+    "networkId": 3125659152
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "did": "did:ethr:eip155-2",
+  "name": "Expanse Network",
+  "network": "eip155-2",
+  "interface": "evm",
+  "coins": [
+    {
+      "name": "Expanse Network Ether",
+      "symbol": "EXP",
+      "denom": "wei",
+      "granularity": 18
+    }
+  ],
+  "rpc": [
+    "https://node.expanse.tech"
+  ],
+  "custom": {
+    "chainId": 2,
+    "networkId": 1
+  }
+}

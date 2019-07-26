@@ -1,0 +1,22 @@
+{
+  "did": "did:ethr:eip155-61717561",
+  "name": "Aquachain",
+  "network": "eip155-61717561",
+  "interface": "evm",
+  "coins": [
+    {
+      "name": "Aquachain Ether",
+      "symbol": "AQUA",
+      "denom": "wei",
+      "granularity": 18
+    }
+  ],
+  "rpc": [
+    "https://c.onical.org",
+    "https://tx.aquacha.in/api"
+  ],
+  "custom": {
+    "chainId": 61717561,
+    "networkId": 61717561
+  }
+}

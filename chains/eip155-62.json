@@ -1,0 +1,19 @@
+{
+  "did": "did:ethr:eip155-62",
+  "name": "Ethereum Classic Testnet",
+  "network": "eip155-62",
+  "interface": "evm",
+  "coins": [
+    {
+      "name": "Ethereum Classic Testnet Ether",
+      "symbol": "TETC",
+      "denom": "wei",
+      "granularity": 18
+    }
+  ],
+  "rpc": [],
+  "custom": {
+    "chainId": 62,
+    "networkId": 2
+  }
+}

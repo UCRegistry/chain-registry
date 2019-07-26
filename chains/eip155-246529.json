@@ -1,0 +1,21 @@
+{
+  "did": "did:ethr:eip155-246529",
+  "name": "ARTIS sigma1",
+  "network": "eip155-246529",
+  "interface": "evm",
+  "coins": [
+    {
+      "name": "ARTIS sigma1 Ether",
+      "symbol": "ATS",
+      "denom": "wei",
+      "granularity": 18
+    }
+  ],
+  "rpc": [
+    "https://rpc.sigma1.artis.network"
+  ],
+  "custom": {
+    "chainId": 246529,
+    "networkId": 246529
+  }
+}

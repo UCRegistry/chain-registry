@@ -1,0 +1,21 @@
+{
+  "did": "did:ethr:eip155-100",
+  "name": "xDAI Chain",
+  "network": "eip155-100",
+  "interface": "evm",
+  "coins": [
+    {
+      "name": "xDAI",
+      "symbol": "xDAI",
+      "denom": "wei",
+      "granularity": 18
+    }
+  ],
+  "rpc": [
+    "https://dai.poa.network"
+  ],
+  "custom": {
+    "chainId": 100,
+    "networkId": 100
+  }
+}

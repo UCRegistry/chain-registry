@@ -1,0 +1,21 @@
+{
+  "did": "did:ethr:eip155-162",
+  "name": "Lightstreams Testnet",
+  "network": "eip155-162",
+  "interface": "evm",
+  "coins": [
+    {
+      "name": "Lightstreams PHT",
+      "symbol": "PHT",
+      "denom": "wei",
+      "granularity": 18
+    }
+  ],
+  "rpc": [
+    "https://node.sirius.lightstreams.io"
+  ],
+  "custom": {
+    "chainId": 162,
+    "networkId": 162
+  }
+}
