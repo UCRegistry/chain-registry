@@ -65,6 +65,12 @@ to make sure that clients will be able to properly handle your definition.
     "custom": {
       "type": "object",
       "properties": {
+        "chainId": {
+          "type": "integer"
+        },
+        "networkId": {
+          "type": "integer"
+        },
         "lcd": {
           "type": "string"
         },
