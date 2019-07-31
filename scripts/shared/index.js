@@ -37,27 +37,35 @@ function stopSpinner () {
   }
 }
 
-function padRight (n, width, z) {
-  z = z || '0'
+function pad (n, width, z = ' ', left = false) {
   n = n + ''
-  return n.length >= width ? n : n + new Array(width - n.length + 1).join(z)
+  return n.length >= width
+    ? n
+    : left
+      ? new Array(width - n.length + 1).join(z) + n
+      : n + new Array(width - n.length + 1).join(z)
 }
 
-function paddedLog (...args) {
+function logPadded (...args) {
   let output = ''
   args.forEach(arg => {
-    output += padRight(`${arg}`, 32, ' ')
+    output += pad(`${arg}`, 32, ' ')
   })
   console.log(output)
 }
 
-function tableLog (chains) {
+function logTitle (title) {
+  let output = ` ${title.toUpperCase()} `
+  output = pad(output, 32, '-', true)
+  output = pad(output, 64, '-')
+  console.log(output)
+}
+
+function logTable (chains, title = 'Chains') {
   chains = sortBy(chains, ['network'])
   console.log('\n')
-  paddedLog('Name', 'Network')
-  console.log('\n')
-  chains.map(json => paddedLog(json.name, json.network))
-  console.log('\n')
+  logTitle(title)
+  chains.map(json => logPadded(json.name, json.network))
 }
 
 function stat (filePath) {
@@ -192,6 +200,22 @@ function formatDid (json) {
   return did
 }
 
+async function saveList (array, title, log = true) {
+  const filePath = path.join(ROOT_DIRECTORY, `${title}.json`)
+  const json = sortBy(array, ['id'])
+  await writeJson(filePath, json)
+  if (log) {
+    logTable(array, title)
+  }
+}
+
+function capitalize (string) {
+  return string
+    .split(' ')
+    .map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
+    .join(' ')
+}
+
 module.exports = {
   ROOT_DIRECTORY,
   CHAINS_DIRECTORY,
@@ -199,9 +223,10 @@ module.exports = {
   CHAIN_ID_REQ,
   startSpinner,
   stopSpinner,
-  padRight,
-  paddedLog,
-  tableLog,
+  pad,
+  logPadded,
+  logTitle,
+  logTable,
   stat,
   formatRpcUrl,
   writeJson,
@@ -212,5 +237,7 @@ module.exports = {
   queryMulti,
   verifyJson,
   sortBy,
-  formatDid
+  formatDid,
+  saveList,
+  capitalize
 }

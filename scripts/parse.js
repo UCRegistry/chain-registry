@@ -1,14 +1,12 @@
 const fs = require('fs')
 const path = require('path')
 const {
-  ROOT_DIRECTORY,
   CHAINS_DIRECTORY,
   startSpinner,
   stopSpinner,
-  tableLog,
   stat,
   writeJson,
-  sortBy,
+  saveList,
   formatDid
 } = require('./shared')
 
@@ -20,7 +18,9 @@ fs.readdir(CHAINS_DIRECTORY, async function (err, files) {
 
   startSpinner(`Verifying ${CHAINS_DIRECTORY} files`)
 
-  let result = []
+  let all = []
+  let evm = []
+  let cosmos = []
 
   await Promise.all(
     files.map(async function (file, index) {
@@ -48,21 +48,24 @@ fs.readdir(CHAINS_DIRECTORY, async function (err, files) {
         }
 
         await writeJson(filePath, newJson)
-        result.push(newJson)
+        all.push(newJson)
+        if (newJson.interface.toLowerCase() === 'evm') {
+          evm.push(newJson)
+        } else if (newJson.interface.toLowerCase() === 'cosmos') {
+          cosmos.push(newJson)
+        }
       }
       return fileStat
     })
   )
 
-  const resultFilePath = path.join(ROOT_DIRECTORY, 'chains.json')
-  const resultJson = sortBy(result, ['id'])
-  await writeJson(resultFilePath, resultJson)
-
   stopSpinner()
 
-  tableLog(result)
+  await saveList(all, 'chains')
+  await saveList(evm, 'evm')
+  await saveList(cosmos, 'cosmos')
 
   console.log(
-    `Successfully parsed ${files.length} file${files.length > 1 ? 's' : ''}`
+    `\nSuccessfully parsed ${files.length} file${files.length > 1 ? 's' : ''}`
   )
 })
