@@ -1,5 +1,5 @@
 {
-  "did": "did:ethr:eip155-5",
+  "id": "did:ethr:eip155-5",
   "name": "Ethereum Testnet Görli",
   "network": "eip155-5",
   "interface": "evm",
@@ -8,7 +8,7 @@
       "name": "Görli Ether",
       "symbol": "GOR",
       "denom": "wei",
-      "granularity": 18
+      "exponent": 18
     }
   ],
   "rpc": [

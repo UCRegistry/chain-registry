@@ -1,5 +1,5 @@
 {
-  "did": "did:ethr:eip155-88",
+  "id": "did:ethr:eip155-88",
   "name": "TomoChain",
   "network": "eip155-88",
   "interface": "evm",
@@ -8,7 +8,7 @@
       "name": "TomoChain Ether",
       "symbol": "TOMO",
       "denom": "wei",
-      "granularity": 18
+      "exponent": 18
     }
   ],
   "rpc": [

@@ -1,5 +1,5 @@
 {
-  "did": "did:ethr:eip155-30",
+  "id": "did:ethr:eip155-30",
   "name": "RSK Mainnet",
   "network": "eip155-30",
   "interface": "evm",
@@ -8,7 +8,7 @@
       "name": "RSK Mainnet Ether",
       "symbol": "RSK",
       "denom": "wei",
-      "granularity": 18
+      "exponent": 18
     }
   ],
   "rpc": [

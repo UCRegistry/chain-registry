@@ -1,5 +1,5 @@
 {
-  "did": "did:ethr:eip155-18",
+  "id": "did:ethr:eip155-18",
   "name": "ThunderCore Testnet",
   "network": "eip155-18",
   "interface": "evm",
@@ -8,7 +8,7 @@
       "name": "ThunderCore Testnet Ether",
       "symbol": "TST",
       "denom": "wei",
-      "granularity": 18
+      "exponent": 18
     }
   ],
   "rpc": [

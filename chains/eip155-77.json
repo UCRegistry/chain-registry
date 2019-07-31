@@ -1,5 +1,5 @@
 {
-  "did": "did:ethr:eip155-77",
+  "id": "did:ethr:eip155-77",
   "name": "POA Network Sokol",
   "network": "eip155-77",
   "interface": "evm",
@@ -8,7 +8,7 @@
       "name": "POA Sokol Ether",
       "symbol": "POA",
       "denom": "wei",
-      "granularity": 18
+      "exponent": 18
     }
   ],
   "rpc": [

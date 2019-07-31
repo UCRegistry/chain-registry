@@ -1,5 +1,5 @@
 {
-  "did": "did:ethr:eip155-1",
+  "id": "did:ethr:eip155-1",
   "name": "Ethereum Mainnet",
   "network": "eip155-1",
   "interface": "evm",
@@ -8,7 +8,7 @@
       "name": "Ether",
       "symbol": "ETH",
       "denom": "wei",
-      "granularity": 18
+      "exponent": 18
     }
   ],
   "rpc": [

@@ -1,5 +1,5 @@
 {
-  "did": "did:ethr:eip155-108",
+  "id": "did:ethr:eip155-108",
   "name": "ThunderCore Mainnet",
   "network": "eip155-108",
   "interface": "evm",
@@ -8,7 +8,7 @@
       "name": "ThunderCore Mainnet Ether",
       "symbol": "TT",
       "denom": "wei",
-      "granularity": 18
+      "exponent": 18
     }
   ],
   "rpc": [

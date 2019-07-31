@@ -1,5 +1,5 @@
 {
-  "did": "did:ethr:eip155-42",
+  "id": "did:ethr:eip155-42",
   "name": "Ethereum Testnet Kovan",
   "network": "eip155-42",
   "interface": "evm",
@@ -8,7 +8,7 @@
       "name": "Kovan Ether",
       "symbol": "KOV",
       "denom": "wei",
-      "granularity": 18
+      "exponent": 18
     }
   ],
   "rpc": [

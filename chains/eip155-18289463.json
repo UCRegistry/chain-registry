@@ -1,5 +1,5 @@
 {
-  "did": "did:ethr:eip155-18289463",
+  "id": "did:ethr:eip155-18289463",
   "name": "IOLite",
   "network": "eip155-18289463",
   "interface": "evm",
@@ -8,7 +8,7 @@
       "name": "IOLite Ether",
       "symbol": "ILT",
       "denom": "wei",
-      "granularity": 18
+      "exponent": 18
     }
   ],
   "rpc": [

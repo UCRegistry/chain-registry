@@ -1,5 +1,5 @@
 {
-  "did": "did:ethr:eip155-76",
+  "id": "did:ethr:eip155-76",
   "name": "Mix",
   "network": "eip155-76",
   "interface": "evm",
@@ -8,7 +8,7 @@
       "name": "Mix Ether",
       "symbol": "MIX",
       "denom": "wei",
-      "granularity": 18
+      "exponent": 18
     }
   ],
   "rpc": [

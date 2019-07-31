@@ -1,5 +1,5 @@
 {
-  "did": "did:ethr:eip155-385",
+  "id": "did:ethr:eip155-385",
   "name": "Lisinski",
   "network": "eip155-385",
   "interface": "evm",
@@ -8,7 +8,7 @@
       "name": "Lisinski Ether",
       "symbol": "LISINSKI",
       "denom": "wei",
-      "granularity": 18
+      "exponent": 18
     }
   ],
   "rpc": [

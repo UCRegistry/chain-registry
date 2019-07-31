@@ -1,5 +1,5 @@
 {
-  "did": "did:ethr:eip155-31102",
+  "id": "did:ethr:eip155-31102",
   "name": "Ethersocial Network",
   "network": "eip155-31102",
   "interface": "evm",
@@ -8,7 +8,7 @@
       "name": "Ethersocial Network Ether",
       "symbol": "ESN",
       "denom": "wei",
-      "granularity": 18
+      "exponent": 18
     }
   ],
   "rpc": [

@@ -1,5 +1,5 @@
 {
-  "did": "did:ethr:eip155-2",
+  "id": "did:ethr:eip155-2",
   "name": "Expanse Network",
   "network": "eip155-2",
   "interface": "evm",
@@ -8,7 +8,7 @@
       "name": "Expanse Network Ether",
       "symbol": "EXP",
       "denom": "wei",
-      "granularity": 18
+      "exponent": 18
     }
   ],
   "rpc": [

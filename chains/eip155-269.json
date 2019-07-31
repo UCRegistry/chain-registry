@@ -1,5 +1,5 @@
 {
-  "did": "did:ethr:eip155-269",
+  "id": "did:ethr:eip155-269",
   "name": "High Performance Blockchain",
   "network": "eip155-269",
   "interface": "evm",
@@ -8,7 +8,7 @@
       "name": "High Performance Blockchain Ether",
       "symbol": "HPB",
       "denom": "wei",
-      "granularity": 18
+      "exponent": 18
     }
   ],
   "rpc": [

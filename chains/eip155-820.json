@@ -1,5 +1,5 @@
 {
-  "did": "did:ethr:eip155-820",
+  "id": "did:ethr:eip155-820",
   "name": "Callisto Mainnet",
   "network": "eip155-820",
   "interface": "evm",
@@ -8,7 +8,7 @@
       "name": "Callisto Mainnet Ether",
       "symbol": "CLO",
       "denom": "wei",
-      "granularity": 18
+      "exponent": 18
     }
   ],
   "rpc": [

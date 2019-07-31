@@ -1,5 +1,5 @@
 {
-  "did": "did:ethr:eip155-3125659152",
+  "id": "did:ethr:eip155-3125659152",
   "name": "Pirl",
   "network": "eip155-3125659152",
   "interface": "evm",
@@ -8,7 +8,7 @@
       "name": "Pirl Ether",
       "symbol": "PIRL",
       "denom": "wei",
-      "granularity": 18
+      "exponent": 18
     }
   ],
   "rpc": [

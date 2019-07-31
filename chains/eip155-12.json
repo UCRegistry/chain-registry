@@ -1,5 +1,5 @@
 {
-  "did": "did:ethr:eip155-12",
+  "id": "did:ethr:eip155-12",
   "name": "Metadium Testnet",
   "network": "eip155-12",
   "interface": "evm",
@@ -8,7 +8,7 @@
       "name": "Metadium Testnet Ether",
       "symbol": "KAL",
       "denom": "wei",
-      "granularity": 18
+      "exponent": 18
     }
   ],
   "rpc": [

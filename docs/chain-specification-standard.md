@@ -1,14 +1,16 @@
 # Chain specification standard
-In order to have your chain properly inserted into our directory, we require you to stick to the following standard 
-to make sure that clients will be able to properly handle your definition. 
+
+In order to have your chain properly inserted into our directory, we require you to stick to the following standard
+to make sure that clients will be able to properly handle your definition.
 
 ## JSON Schema
-```json 
+
+```json
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "type": "object",
   "properties": {
-    "did": {
+    "id": {
       "type": "string"
     },
     "name": {
@@ -39,7 +41,7 @@ to make sure that clients will be able to properly handle your definition.
             "denom": {
               "type": "string"
             },
-            "granularity": {
+            "exponent": {
               "type": "integer"
             }
           },
@@ -87,5 +89,6 @@ to make sure that clients will be able to properly handle your definition.
 ```
 
 ## Verify your definition
-In order to verify that your chain definition adheres to the above standard, you can use tools such as 
-[JSON Schema Validator](https://www.jsonschemavalidator.net/). 
+
+In order to verify that your chain definition adheres to the above standard, you can use tools such as
+[JSON Schema Validator](https://www.jsonschemavalidator.net/).

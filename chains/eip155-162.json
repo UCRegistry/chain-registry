@@ -1,5 +1,5 @@
 {
-  "did": "did:ethr:eip155-162",
+  "id": "did:ethr:eip155-162",
   "name": "Lightstreams Testnet",
   "network": "eip155-162",
   "interface": "evm",
@@ -8,7 +8,7 @@
       "name": "Lightstreams PHT",
       "symbol": "PHT",
       "denom": "wei",
-      "granularity": 18
+      "exponent": 18
     }
   ],
   "rpc": [

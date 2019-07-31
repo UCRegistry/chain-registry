@@ -1,5 +1,5 @@
 {
-  "did": "did:ethr:eip155-200625",
+  "id": "did:ethr:eip155-200625",
   "name": "Akaroma",
   "network": "eip155-200625",
   "interface": "evm",
@@ -8,7 +8,7 @@
       "name": "Akaroma Ether",
       "symbol": "AKA",
       "denom": "wei",
-      "granularity": 18
+      "exponent": 18
     }
   ],
   "rpc": [

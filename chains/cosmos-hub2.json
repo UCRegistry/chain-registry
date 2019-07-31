@@ -1,5 +1,5 @@
 {
-  "did": "did:cosmos:cosmos-hub2",
+  "id": "did:cosmos:cosmos-hub2",
   "name": "Cosmos Hub",
   "network": "cosmos-hub2",
   "interface": "cosmos",
@@ -8,7 +8,7 @@
       "name": "Atom",
       "symbol": "ATM",
       "denom": "uatom",
-      "granularity": 9
+      "exponent": 9
     }
   ],
   "rpc": [

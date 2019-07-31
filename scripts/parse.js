@@ -34,11 +34,11 @@ fs.readdir(CHAINS_DIRECTORY, async function (err, files) {
           name: coin.name,
           symbol: coin.symbol,
           denom: coin.denom,
-          granularity: coin.granularity
+          exponent: coin.exponent
         }))
 
         let newJson = {
-          did: formatDid(json),
+          id: formatDid(json),
           name: json.name,
           network: json.network,
           interface: json.interface,
@@ -55,7 +55,7 @@ fs.readdir(CHAINS_DIRECTORY, async function (err, files) {
   )
 
   const resultFilePath = path.join(ROOT_DIRECTORY, 'chains.json')
-  const resultJson = sortBy(result, ['did'])
+  const resultJson = sortBy(result, ['id'])
   await writeJson(resultFilePath, resultJson)
 
   stopSpinner()

@@ -1,5 +1,5 @@
 {
-  "did": "did:ethr:eip155-99",
+  "id": "did:ethr:eip155-99",
   "name": "POA Network Core",
   "network": "eip155-99",
   "interface": "evm",
@@ -8,7 +8,7 @@
       "name": "POA Network Core Ether",
       "symbol": "SKL",
       "denom": "wei",
-      "granularity": 18
+      "exponent": 18
     }
   ],
   "rpc": [

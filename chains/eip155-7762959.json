@@ -1,5 +1,5 @@
 {
-  "did": "did:ethr:eip155-7762959",
+  "id": "did:ethr:eip155-7762959",
   "name": "Musicoin",
   "network": "eip155-7762959",
   "interface": "evm",
@@ -8,7 +8,7 @@
       "name": "Musicoin",
       "symbol": "MUSIC",
       "denom": "wei",
-      "granularity": 18
+      "exponent": 18
     }
   ],
   "rpc": [

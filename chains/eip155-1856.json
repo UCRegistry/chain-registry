@@ -1,5 +1,5 @@
 {
-  "did": "did:ethr:eip155-1856",
+  "id": "did:ethr:eip155-1856",
   "name": "Teslafunds",
   "network": "eip155-1856",
   "interface": "evm",
@@ -8,7 +8,7 @@
       "name": "Teslafunds Ether",
       "symbol": "TSF",
       "denom": "wei",
-      "granularity": 18
+      "exponent": 18
     }
   ],
   "rpc": [

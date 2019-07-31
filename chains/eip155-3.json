@@ -1,5 +1,5 @@
 {
-  "did": "did:ethr:eip155-3",
+  "id": "did:ethr:eip155-3",
   "name": "Ethereum Testnet Ropsten",
   "network": "eip155-3",
   "interface": "evm",
@@ -8,7 +8,7 @@
       "name": "Ropsten Ether",
       "symbol": "ROP",
       "denom": "wei",
-      "granularity": 18
+      "exponent": 18
     }
   ],
   "rpc": [

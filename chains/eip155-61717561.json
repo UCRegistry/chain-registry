@@ -1,5 +1,5 @@
 {
-  "did": "did:ethr:eip155-61717561",
+  "id": "did:ethr:eip155-61717561",
   "name": "Aquachain",
   "network": "eip155-61717561",
   "interface": "evm",
@@ -8,7 +8,7 @@
       "name": "Aquachain Ether",
       "symbol": "AQUA",
       "denom": "wei",
-      "granularity": 18
+      "exponent": 18
     }
   ],
   "rpc": [

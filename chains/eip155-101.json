@@ -1,5 +1,5 @@
 {
-  "did": "did:ethr:eip155-101",
+  "id": "did:ethr:eip155-101",
   "name": "EtherInc",
   "network": "eip155-101",
   "interface": "evm",
@@ -8,7 +8,7 @@
       "name": "EtherInc Ether",
       "symbol": "ETI",
       "denom": "wei",
-      "granularity": 18
+      "exponent": 18
     }
   ],
   "rpc": [

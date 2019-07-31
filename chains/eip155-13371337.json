@@ -1,5 +1,5 @@
 {
-  "did": "did:ethr:eip155-13371337",
+  "id": "did:ethr:eip155-13371337",
   "name": "PepChain Churchill",
   "network": "eip155-13371337",
   "interface": "evm",
@@ -8,7 +8,7 @@
       "name": "PepChain Churchill Ether",
       "symbol": "TPEP",
       "denom": "wei",
-      "granularity": 18
+      "exponent": 18
     }
   ],
   "rpc": [

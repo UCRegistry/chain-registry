@@ -1,5 +1,5 @@
 {
-  "did": "did:ethr:eip155-62",
+  "id": "did:ethr:eip155-62",
   "name": "Ethereum Classic Testnet",
   "network": "eip155-62",
   "interface": "evm",
@@ -8,7 +8,7 @@
       "name": "Ethereum Classic Testnet Ether",
       "symbol": "TETC",
       "denom": "wei",
-      "granularity": 18
+      "exponent": 18
     }
   ],
   "rpc": [],

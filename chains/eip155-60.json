@@ -1,5 +1,5 @@
 {
-  "did": "did:ethr:eip155-60",
+  "id": "did:ethr:eip155-60",
   "name": "GoChain",
   "network": "eip155-60",
   "interface": "evm",
@@ -8,7 +8,7 @@
       "name": "GoChain Ether",
       "symbol": "GO",
       "denom": "wei",
-      "granularity": 18
+      "exponent": 18
     }
   ],
   "rpc": [

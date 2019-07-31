@@ -1,5 +1,5 @@
 {
-  "did": "did:ethr:eip155-9",
+  "id": "did:ethr:eip155-9",
   "name": "Ubiq Network Testnet",
   "network": "eip155-9",
   "interface": "evm",
@@ -8,7 +8,7 @@
       "name": "Ubiq Testnet Ether",
       "symbol": "TUBQ",
       "denom": "wei",
-      "granularity": 18
+      "exponent": 18
     }
   ],
   "rpc": [],

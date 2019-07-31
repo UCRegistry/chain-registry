@@ -1,5 +1,5 @@
 {
-  "did": "did:ethr:eip155-11",
+  "id": "did:ethr:eip155-11",
   "name": "Metadium Mainnet",
   "network": "eip155-11",
   "interface": "evm",
@@ -8,7 +8,7 @@
       "name": "Metadium Mainnet Ether",
       "symbol": "META",
       "denom": "wei",
-      "granularity": 18
+      "exponent": 18
     }
   ],
   "rpc": [

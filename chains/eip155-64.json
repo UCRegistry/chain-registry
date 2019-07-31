@@ -1,5 +1,5 @@
 {
-  "did": "did:ethr:eip155-64",
+  "id": "did:ethr:eip155-64",
   "name": "Ellaism",
   "network": "eip155-64",
   "interface": "evm",
@@ -8,7 +8,7 @@
       "name": "Ellaism Ether",
       "symbol": "ELLA",
       "denom": "wei",
-      "granularity": 18
+      "exponent": 18
     }
   ],
   "rpc": [

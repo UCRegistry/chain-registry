@@ -1,5 +1,5 @@
 {
-  "did": "did:ethr:eip155-24484",
+  "id": "did:ethr:eip155-24484",
   "name": "Webchain",
   "network": "eip155-24484",
   "interface": "evm",
@@ -8,7 +8,7 @@
       "name": "Webchain Ether",
       "symbol": "WEB",
       "denom": "wei",
-      "granularity": 18
+      "exponent": 18
     }
   ],
   "rpc": [

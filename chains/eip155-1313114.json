@@ -1,5 +1,5 @@
 {
-  "did": "did:ethr:eip155-1313114",
+  "id": "did:ethr:eip155-1313114",
   "name": "Ether-1",
   "network": "eip155-1313114",
   "interface": "evm",
@@ -8,7 +8,7 @@
       "name": "Ether-1 Ether",
       "symbol": "ETHO",
       "denom": "wei",
-      "granularity": 18
+      "exponent": 18
     }
   ],
   "rpc": [

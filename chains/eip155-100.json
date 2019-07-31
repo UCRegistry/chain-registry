@@ -1,5 +1,5 @@
 {
-  "did": "did:ethr:eip155-100",
+  "id": "did:ethr:eip155-100",
   "name": "xDAI Chain",
   "network": "eip155-100",
   "interface": "evm",
@@ -8,7 +8,7 @@
       "name": "xDAI",
       "symbol": "xDAI",
       "denom": "wei",
-      "granularity": 18
+      "exponent": 18
     }
   ],
   "rpc": [
