@@ -49,7 +49,7 @@ to make sure that clients will be able to properly handle your definition.
             "name",
             "symbol",
             "denom",
-            "granularity"
+            "exponent"
           ]
         }
       ]
@@ -77,7 +77,7 @@ to make sure that clients will be able to properly handle your definition.
     }
   },
   "required": [
-    "did",
+    "id",
     "name",
     "network",
     "interface",
