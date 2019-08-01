@@ -9,7 +9,7 @@
         "name": "Commercio",
         "symbol": "CNT",
         "denom": "ucommercio",
-        "exponent": 9
+        "exponent": 6
       }
     ],
     "rpc": [
