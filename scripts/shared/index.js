@@ -181,7 +181,7 @@ async function verifyJson (json) {
 
 async function saveList (array, title, log = true) {
   const filePath = path.join(ROOT_DIRECTORY, `${title}.json`)
-  const json = sortBy(array, ['id'])
+  const json = sortBy(array, ['network'])
   await writeJson(filePath, json)
   if (log) {
     logTable(array, title)

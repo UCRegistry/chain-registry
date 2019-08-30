@@ -10,9 +10,6 @@ to make sure that clients will be able to properly handle your definition.
   "$schema": "http://json-schema.org/draft-04/schema#",
   "type": "object",
   "properties": {
-    "id": {
-      "type": "string"
-    },
     "name": {
       "type": "string"
     },
@@ -21,10 +18,7 @@ to make sure that clients will be able to properly handle your definition.
     },
     "interface": {
       "type": "string",
-      "enum": [
-        "cosmos",
-        "evm"
-      ]
+      "enum": ["cosmos", "evm"]
     },
     "coins": {
       "type": "array",
@@ -45,12 +39,7 @@ to make sure that clients will be able to properly handle your definition.
               "type": "integer"
             }
           },
-          "required": [
-            "name",
-            "symbol",
-            "denom",
-            "exponent"
-          ]
+          "required": ["name", "symbol", "denom", "exponent"]
         }
       ]
     },
@@ -78,19 +67,10 @@ to make sure that clients will be able to properly handle your definition.
           "type": "string"
         }
       },
-      "required": [
-      ]
+      "required": []
     }
   },
-  "required": [
-    "id",
-    "name",
-    "network",
-    "interface",
-    "coins",
-    "rpc",
-    "custom"
-  ]
+  "required": ["name", "network", "interface", "coins", "rpc", "custom"]
 }
 ```
 
