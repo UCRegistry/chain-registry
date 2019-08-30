@@ -18,7 +18,10 @@ to make sure that clients will be able to properly handle your definition.
     },
     "interface": {
       "type": "string",
-      "enum": ["cosmos", "evm"]
+      "enum": [
+        "cosmos",
+        "evm"
+      ]
     },
     "coins": {
       "type": "array",
@@ -39,7 +42,12 @@ to make sure that clients will be able to properly handle your definition.
               "type": "integer"
             }
           },
-          "required": ["name", "symbol", "denom", "exponent"]
+          "required": [
+            "name",
+            "symbol",
+            "denom",
+            "exponent"
+          ]
         }
       ]
     },
@@ -67,10 +75,19 @@ to make sure that clients will be able to properly handle your definition.
           "type": "string"
         }
       },
-      "required": []
+      "required": [
+      ]
     }
   },
-  "required": ["name", "network", "interface", "coins", "rpc", "custom"]
+  "required": [
+    "id",
+    "name",
+    "network",
+    "interface",
+    "coins",
+    "rpc",
+    "custom"
+  ]
 }
 ```
 
