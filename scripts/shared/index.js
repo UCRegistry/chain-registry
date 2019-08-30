@@ -62,10 +62,10 @@ function logTitle (title) {
 }
 
 function logTable (chains, title = 'Chains') {
-  chains = sortBy(chains, ['network'])
+  chains = sortBy(chains, ['networkId'])
   console.log('\n')
   logTitle(title)
-  chains.map(json => logPadded(json.name, json.network))
+  chains.map(json => logPadded(json.name, json.networkId))
 }
 
 function stat (filePath) {
@@ -181,7 +181,7 @@ async function verifyJson (json) {
 
 async function saveList (array, title, log = true) {
   const filePath = path.join(ROOT_DIRECTORY, `${title}.json`)
-  const json = sortBy(array, ['network'])
+  const json = sortBy(array, ['networkId'])
   await writeJson(filePath, json)
   if (log) {
     logTable(array, title)
