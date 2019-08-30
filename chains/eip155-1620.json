@@ -1,5 +1,4 @@
 {
-  "id": "did:ethr:eip155-1620",
   "name": "Atheios",
   "network": "eip155-1620",
   "interface": "evm",

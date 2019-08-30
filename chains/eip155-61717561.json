@@ -1,5 +1,4 @@
 {
-  "id": "did:ethr:eip155-61717561",
   "name": "Aquachain",
   "network": "eip155-61717561",
   "interface": "evm",

@@ -1,5 +1,4 @@
 {
-  "id": "did:ethr:eip155-101",
   "name": "EtherInc",
   "network": "eip155-101",
   "interface": "evm",

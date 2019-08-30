@@ -1,6 +1,5 @@
 [
   {
-    "id": "did:ethr:eip155-1",
     "name": "Ethereum Mainnet",
     "network": "eip155-1",
     "interface": "evm",
@@ -22,7 +21,6 @@
     }
   },
   {
-    "id": "did:ethr:eip155-100",
     "name": "xDAI Chain",
     "network": "eip155-100",
     "interface": "evm",
@@ -43,7 +41,6 @@
     }
   },
   {
-    "id": "did:ethr:eip155-101",
     "name": "EtherInc",
     "network": "eip155-101",
     "interface": "evm",
@@ -64,7 +61,6 @@
     }
   },
   {
-    "id": "did:ethr:eip155-108",
     "name": "ThunderCore Mainnet",
     "network": "eip155-108",
     "interface": "evm",
@@ -85,7 +81,6 @@
     }
   },
   {
-    "id": "did:ethr:eip155-11",
     "name": "Metadium Mainnet",
     "network": "eip155-11",
     "interface": "evm",
@@ -106,7 +101,6 @@
     }
   },
   {
-    "id": "did:ethr:eip155-1122334455",
     "name": "IPOS Network",
     "network": "eip155-1122334455",
     "interface": "evm",
@@ -128,7 +122,6 @@
     }
   },
   {
-    "id": "did:ethr:eip155-12",
     "name": "Metadium Testnet",
     "network": "eip155-12",
     "interface": "evm",
@@ -149,7 +142,6 @@
     }
   },
   {
-    "id": "did:ethr:eip155-1313114",
     "name": "Ether-1",
     "network": "eip155-1313114",
     "interface": "evm",
@@ -170,7 +162,6 @@
     }
   },
   {
-    "id": "did:ethr:eip155-13371337",
     "name": "PepChain Churchill",
     "network": "eip155-13371337",
     "interface": "evm",
@@ -191,7 +182,6 @@
     }
   },
   {
-    "id": "did:ethr:eip155-162",
     "name": "Lightstreams Testnet",
     "network": "eip155-162",
     "interface": "evm",
@@ -212,7 +202,6 @@
     }
   },
   {
-    "id": "did:ethr:eip155-1620",
     "name": "Atheios",
     "network": "eip155-1620",
     "interface": "evm",
@@ -233,7 +222,6 @@
     }
   },
   {
-    "id": "did:ethr:eip155-163",
     "name": "Lightstreams Mainnet",
     "network": "eip155-163",
     "interface": "evm",
@@ -254,7 +242,6 @@
     }
   },
   {
-    "id": "did:ethr:eip155-18",
     "name": "ThunderCore Testnet",
     "network": "eip155-18",
     "interface": "evm",
@@ -275,7 +262,6 @@
     }
   },
   {
-    "id": "did:ethr:eip155-18289463",
     "name": "IOLite",
     "network": "eip155-18289463",
     "interface": "evm",
@@ -296,7 +282,6 @@
     }
   },
   {
-    "id": "did:ethr:eip155-1856",
     "name": "Teslafunds",
     "network": "eip155-1856",
     "interface": "evm",
@@ -317,7 +302,6 @@
     }
   },
   {
-    "id": "did:ethr:eip155-1987",
     "name": "EtherGem",
     "network": "eip155-1987",
     "interface": "evm",
@@ -338,7 +322,6 @@
     }
   },
   {
-    "id": "did:ethr:eip155-2",
     "name": "Expanse Network",
     "network": "eip155-2",
     "interface": "evm",
@@ -359,7 +342,6 @@
     }
   },
   {
-    "id": "did:ethr:eip155-200625",
     "name": "Akaroma",
     "network": "eip155-200625",
     "interface": "evm",
@@ -380,7 +362,6 @@
     }
   },
   {
-    "id": "did:ethr:eip155-24484",
     "name": "Webchain",
     "network": "eip155-24484",
     "interface": "evm",
@@ -401,7 +382,6 @@
     }
   },
   {
-    "id": "did:ethr:eip155-246529",
     "name": "ARTIS sigma1",
     "network": "eip155-246529",
     "interface": "evm",
@@ -422,7 +402,6 @@
     }
   },
   {
-    "id": "did:ethr:eip155-246785",
     "name": "ARTIS tau1",
     "network": "eip155-246785",
     "interface": "evm",
@@ -443,7 +422,6 @@
     }
   },
   {
-    "id": "did:ethr:eip155-269",
     "name": "High Performance Blockchain",
     "network": "eip155-269",
     "interface": "evm",
@@ -464,7 +442,6 @@
     }
   },
   {
-    "id": "did:ethr:eip155-28945486",
     "name": "Auxilium Network Mainnet",
     "network": "eip155-28945486",
     "interface": "evm",
@@ -485,7 +462,6 @@
     }
   },
   {
-    "id": "did:ethr:eip155-3",
     "name": "Ethereum Testnet Ropsten",
     "network": "eip155-3",
     "interface": "evm",
@@ -506,7 +482,6 @@
     }
   },
   {
-    "id": "did:ethr:eip155-30",
     "name": "RSK Mainnet",
     "network": "eip155-30",
     "interface": "evm",
@@ -528,7 +503,6 @@
     }
   },
   {
-    "id": "did:ethr:eip155-31",
     "name": "RSK Testnet",
     "network": "eip155-31",
     "interface": "evm",
@@ -550,7 +524,6 @@
     }
   },
   {
-    "id": "did:ethr:eip155-31102",
     "name": "Ethersocial Network",
     "network": "eip155-31102",
     "interface": "evm",
@@ -571,7 +544,6 @@
     }
   },
   {
-    "id": "did:ethr:eip155-3125659152",
     "name": "Pirl",
     "network": "eip155-3125659152",
     "interface": "evm",
@@ -592,7 +564,6 @@
     }
   },
   {
-    "id": "did:ethr:eip155-385",
     "name": "Lisinski",
     "network": "eip155-385",
     "interface": "evm",
@@ -613,7 +584,6 @@
     }
   },
   {
-    "id": "did:ethr:eip155-4",
     "name": "Ethereum Testnet Rinkeby",
     "network": "eip155-4",
     "interface": "evm",
@@ -634,7 +604,6 @@
     }
   },
   {
-    "id": "did:ethr:eip155-42",
     "name": "Ethereum Testnet Kovan",
     "network": "eip155-42",
     "interface": "evm",
@@ -655,7 +624,6 @@
     }
   },
   {
-    "id": "did:ethr:eip155-5",
     "name": "Ethereum Testnet Görli",
     "network": "eip155-5",
     "interface": "evm",
@@ -678,7 +646,6 @@
     }
   },
   {
-    "id": "did:ethr:eip155-6",
     "name": "Ethereum Classic Testnet Kotti",
     "network": "eip155-6",
     "interface": "evm",
@@ -697,7 +664,6 @@
     }
   },
   {
-    "id": "did:ethr:eip155-60",
     "name": "GoChain",
     "network": "eip155-60",
     "interface": "evm",
@@ -718,7 +684,6 @@
     }
   },
   {
-    "id": "did:ethr:eip155-61",
     "name": "Ethereum Classic Mainnet",
     "network": "eip155-61",
     "interface": "evm",
@@ -739,7 +704,6 @@
     }
   },
   {
-    "id": "did:ethr:eip155-61717561",
     "name": "Aquachain",
     "network": "eip155-61717561",
     "interface": "evm",
@@ -761,7 +725,6 @@
     }
   },
   {
-    "id": "did:ethr:eip155-62",
     "name": "Ethereum Classic Testnet",
     "network": "eip155-62",
     "interface": "evm",
@@ -780,7 +743,6 @@
     }
   },
   {
-    "id": "did:ethr:eip155-64",
     "name": "Ellaism",
     "network": "eip155-64",
     "interface": "evm",
@@ -801,7 +763,6 @@
     }
   },
   {
-    "id": "did:ethr:eip155-76",
     "name": "Mix",
     "network": "eip155-76",
     "interface": "evm",
@@ -822,7 +783,6 @@
     }
   },
   {
-    "id": "did:ethr:eip155-77",
     "name": "POA Network Sokol",
     "network": "eip155-77",
     "interface": "evm",
@@ -843,7 +803,6 @@
     }
   },
   {
-    "id": "did:ethr:eip155-7762959",
     "name": "Musicoin",
     "network": "eip155-7762959",
     "interface": "evm",
@@ -864,7 +823,6 @@
     }
   },
   {
-    "id": "did:ethr:eip155-8",
     "name": "Ubiq Network Mainnet",
     "network": "eip155-8",
     "interface": "evm",
@@ -885,7 +843,6 @@
     }
   },
   {
-    "id": "did:ethr:eip155-820",
     "name": "Callisto Mainnet",
     "network": "eip155-820",
     "interface": "evm",
@@ -906,7 +863,6 @@
     }
   },
   {
-    "id": "did:ethr:eip155-821",
     "name": "Callisto Testnet",
     "network": "eip155-821",
     "interface": "evm",
@@ -925,7 +881,6 @@
     }
   },
   {
-    "id": "did:ethr:eip155-88",
     "name": "TomoChain",
     "network": "eip155-88",
     "interface": "evm",
@@ -946,7 +901,6 @@
     }
   },
   {
-    "id": "did:ethr:eip155-9",
     "name": "Ubiq Network Testnet",
     "network": "eip155-9",
     "interface": "evm",
@@ -965,7 +919,6 @@
     }
   },
   {
-    "id": "did:ethr:eip155-977",
     "name": "Nepal Blockchain Network",
     "network": "eip155-977",
     "interface": "evm",
@@ -987,7 +940,6 @@
     }
   },
   {
-    "id": "did:ethr:eip155-99",
     "name": "POA Network Core",
     "network": "eip155-99",
     "interface": "evm",

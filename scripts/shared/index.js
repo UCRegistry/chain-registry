@@ -179,30 +179,9 @@ async function verifyJson (json) {
   return json
 }
 
-function formatDid (json) {
-  let method = ''
-  switch (json.interface) {
-    case 'evm':
-      method = 'ethr'
-      break
-    case 'cosmos':
-      method = 'cosmos'
-      break
-    default:
-      break
-  }
-  if (!method) {
-    throw new Error(
-      `${json.name} doesn't have DID method for ${json.interface} interface`
-    )
-  }
-  const did = `did:${method}:${json.network}`
-  return did
-}
-
 async function saveList (array, title, log = true) {
   const filePath = path.join(ROOT_DIRECTORY, `${title}.json`)
-  const json = sortBy(array, ['id'])
+  const json = sortBy(array, ['network'])
   await writeJson(filePath, json)
   if (log) {
     logTable(array, title)
@@ -237,7 +216,6 @@ module.exports = {
   queryMulti,
   verifyJson,
   sortBy,
-  formatDid,
   saveList,
   capitalize
 }

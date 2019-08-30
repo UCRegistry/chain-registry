@@ -1,5 +1,4 @@
 {
-  "id": "did:ethr:eip155-88",
   "name": "TomoChain",
   "network": "eip155-88",
   "interface": "evm",

@@ -1,5 +1,4 @@
 {
-  "id": "did:ethr:eip155-30",
   "name": "RSK Mainnet",
   "network": "eip155-30",
   "interface": "evm",

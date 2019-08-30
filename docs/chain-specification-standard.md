@@ -10,9 +10,6 @@ to make sure that clients will be able to properly handle your definition.
   "$schema": "http://json-schema.org/draft-04/schema#",
   "type": "object",
   "properties": {
-    "id": {
-      "type": "string"
-    },
     "name": {
       "type": "string"
     },

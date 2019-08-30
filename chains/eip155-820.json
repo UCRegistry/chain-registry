@@ -1,5 +1,4 @@
 {
-  "id": "did:ethr:eip155-820",
   "name": "Callisto Mainnet",
   "network": "eip155-820",
   "interface": "evm",

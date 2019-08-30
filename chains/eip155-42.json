@@ -1,5 +1,4 @@
 {
-  "id": "did:ethr:eip155-42",
   "name": "Ethereum Testnet Kovan",
   "network": "eip155-42",
   "interface": "evm",

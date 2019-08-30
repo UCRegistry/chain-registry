@@ -6,8 +6,7 @@ const {
   stopSpinner,
   stat,
   writeJson,
-  saveList,
-  formatDid
+  saveList
 } = require('./shared')
 
 fs.readdir(CHAINS_DIRECTORY, async function (err, files) {
@@ -38,7 +37,6 @@ fs.readdir(CHAINS_DIRECTORY, async function (err, files) {
         }))
 
         let newJson = {
-          id: formatDid(json),
           name: json.name,
           network: json.network,
           interface: json.interface,

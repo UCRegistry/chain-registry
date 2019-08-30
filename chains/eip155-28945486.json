@@ -1,5 +1,4 @@
 {
-  "id": "did:ethr:eip155-28945486",
   "name": "Auxilium Network Mainnet",
   "network": "eip155-28945486",
   "interface": "evm",

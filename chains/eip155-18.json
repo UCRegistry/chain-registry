@@ -1,5 +1,4 @@
 {
-  "id": "did:ethr:eip155-18",
   "name": "ThunderCore Testnet",
   "network": "eip155-18",
   "interface": "evm",
