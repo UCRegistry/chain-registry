@@ -13,7 +13,7 @@ to make sure that clients will be able to properly handle your definition.
     "name": {
       "type": "string"
     },
-    "network": {
+    "networkId": {
       "type": "string"
     },
     "interface": {
@@ -82,7 +82,7 @@ to make sure that clients will be able to properly handle your definition.
   "required": [
     "id",
     "name",
-    "network",
+    "networkId",
     "interface",
     "coins",
     "rpc",
