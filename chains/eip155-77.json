@@ -1,6 +1,6 @@
 {
   "name": "POA Network Sokol",
-  "network": "eip155-77",
+  "networkId": "eip155-77",
   "interface": "evm",
   "coins": [
     {

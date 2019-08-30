@@ -1,6 +1,6 @@
 {
   "name": "Ethersocial Network",
-  "network": "eip155-31102",
+  "networkId": "eip155-31102",
   "interface": "evm",
   "coins": [
     {

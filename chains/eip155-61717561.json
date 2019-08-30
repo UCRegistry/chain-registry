@@ -1,6 +1,6 @@
 {
   "name": "Aquachain",
-  "network": "eip155-61717561",
+  "networkId": "eip155-61717561",
   "interface": "evm",
   "coins": [
     {

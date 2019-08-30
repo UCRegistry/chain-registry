@@ -1,6 +1,6 @@
 {
   "name": "Ethereum Classic Testnet",
-  "network": "eip155-62",
+  "networkId": "eip155-62",
   "interface": "evm",
   "coins": [
     {

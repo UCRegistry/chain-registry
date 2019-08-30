@@ -1,6 +1,6 @@
 {
   "name": "Ethereum Testnet Rinkeby",
-  "network": "eip155-4",
+  "networkId": "eip155-4",
   "interface": "evm",
   "coins": [
     {

@@ -1,6 +1,6 @@
 {
   "name": "Nepal Blockchain Network",
-  "network": "eip155-977",
+  "networkId": "eip155-977",
   "interface": "evm",
   "coins": [
     {

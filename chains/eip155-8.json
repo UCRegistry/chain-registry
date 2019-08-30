@@ -1,6 +1,6 @@
 {
   "name": "Ubiq Network Mainnet",
-  "network": "eip155-8",
+  "networkId": "eip155-8",
   "interface": "evm",
   "coins": [
     {

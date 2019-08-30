@@ -1,6 +1,6 @@
 {
   "name": "IPOS Network",
-  "network": "eip155-1122334455",
+  "networkId": "eip155-1122334455",
   "interface": "evm",
   "coins": [
     {

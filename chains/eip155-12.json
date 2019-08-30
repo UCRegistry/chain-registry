@@ -1,6 +1,6 @@
 {
   "name": "Metadium Testnet",
-  "network": "eip155-12",
+  "networkId": "eip155-12",
   "interface": "evm",
   "coins": [
     {

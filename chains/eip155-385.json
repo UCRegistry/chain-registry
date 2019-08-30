@@ -1,6 +1,6 @@
 {
   "name": "Lisinski",
-  "network": "eip155-385",
+  "networkId": "eip155-385",
   "interface": "evm",
   "coins": [
     {

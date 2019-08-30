@@ -1,6 +1,6 @@
 {
   "name": "IOLite",
-  "network": "eip155-18289463",
+  "networkId": "eip155-18289463",
   "interface": "evm",
   "coins": [
     {

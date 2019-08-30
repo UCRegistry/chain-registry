@@ -1,6 +1,6 @@
 {
   "name": "Commercio.network Testnet 1001",
-  "network": "commercio-testnet1001",
+  "networkId": "commercio-testnet1001",
   "interface": "cosmos",
   "coins": [
     {

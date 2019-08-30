@@ -1,6 +1,6 @@
 {
   "name": "ARTIS sigma1",
-  "network": "eip155-246529",
+  "networkId": "eip155-246529",
   "interface": "evm",
   "coins": [
     {

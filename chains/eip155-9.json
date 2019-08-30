@@ -1,6 +1,6 @@
 {
   "name": "Ubiq Network Testnet",
-  "network": "eip155-9",
+  "networkId": "eip155-9",
   "interface": "evm",
   "coins": [
     {

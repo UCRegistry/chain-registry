@@ -1,6 +1,6 @@
 {
   "name": "Lightstreams Mainnet",
-  "network": "eip155-163",
+  "networkId": "eip155-163",
   "interface": "evm",
   "coins": [
     {

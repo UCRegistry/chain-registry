@@ -1,6 +1,6 @@
 {
   "name": "Ethereum Classic Mainnet",
-  "network": "eip155-61",
+  "networkId": "eip155-61",
   "interface": "evm",
   "coins": [
     {
