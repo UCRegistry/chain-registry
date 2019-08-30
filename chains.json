@@ -1,7 +1,7 @@
 [
   {
     "name": "Commercio.network Testnet 1001",
-    "network": "commercio-testnet1001",
+    "networkId": "commercio-testnet1001",
     "interface": "cosmos",
     "coins": [
       {
@@ -21,7 +21,7 @@
   },
   {
     "name": "Cosmos Hub",
-    "network": "cosmos-hub2",
+    "networkId": "cosmos-hub2",
     "interface": "cosmos",
     "coins": [
       {
@@ -41,7 +41,7 @@
   },
   {
     "name": "Ethereum Mainnet",
-    "network": "eip155-1",
+    "networkId": "eip155-1",
     "interface": "evm",
     "coins": [
       {
@@ -62,7 +62,7 @@
   },
   {
     "name": "xDAI Chain",
-    "network": "eip155-100",
+    "networkId": "eip155-100",
     "interface": "evm",
     "coins": [
       {
@@ -82,7 +82,7 @@
   },
   {
     "name": "EtherInc",
-    "network": "eip155-101",
+    "networkId": "eip155-101",
     "interface": "evm",
     "coins": [
       {
@@ -102,7 +102,7 @@
   },
   {
     "name": "ThunderCore Mainnet",
-    "network": "eip155-108",
+    "networkId": "eip155-108",
     "interface": "evm",
     "coins": [
       {
@@ -122,7 +122,7 @@
   },
   {
     "name": "Metadium Mainnet",
-    "network": "eip155-11",
+    "networkId": "eip155-11",
     "interface": "evm",
     "coins": [
       {
@@ -142,7 +142,7 @@
   },
   {
     "name": "IPOS Network",
-    "network": "eip155-1122334455",
+    "networkId": "eip155-1122334455",
     "interface": "evm",
     "coins": [
       {
@@ -163,7 +163,7 @@
   },
   {
     "name": "Metadium Testnet",
-    "network": "eip155-12",
+    "networkId": "eip155-12",
     "interface": "evm",
     "coins": [
       {
@@ -183,7 +183,7 @@
   },
   {
     "name": "Ether-1",
-    "network": "eip155-1313114",
+    "networkId": "eip155-1313114",
     "interface": "evm",
     "coins": [
       {
@@ -203,7 +203,7 @@
   },
   {
     "name": "PepChain Churchill",
-    "network": "eip155-13371337",
+    "networkId": "eip155-13371337",
     "interface": "evm",
     "coins": [
       {
@@ -223,7 +223,7 @@
   },
   {
     "name": "Lightstreams Testnet",
-    "network": "eip155-162",
+    "networkId": "eip155-162",
     "interface": "evm",
     "coins": [
       {
@@ -243,7 +243,7 @@
   },
   {
     "name": "Atheios",
-    "network": "eip155-1620",
+    "networkId": "eip155-1620",
     "interface": "evm",
     "coins": [
       {
@@ -263,7 +263,7 @@
   },
   {
     "name": "Lightstreams Mainnet",
-    "network": "eip155-163",
+    "networkId": "eip155-163",
     "interface": "evm",
     "coins": [
       {
@@ -283,7 +283,7 @@
   },
   {
     "name": "ThunderCore Testnet",
-    "network": "eip155-18",
+    "networkId": "eip155-18",
     "interface": "evm",
     "coins": [
       {
@@ -303,7 +303,7 @@
   },
   {
     "name": "IOLite",
-    "network": "eip155-18289463",
+    "networkId": "eip155-18289463",
     "interface": "evm",
     "coins": [
       {
@@ -323,7 +323,7 @@
   },
   {
     "name": "Teslafunds",
-    "network": "eip155-1856",
+    "networkId": "eip155-1856",
     "interface": "evm",
     "coins": [
       {
@@ -343,7 +343,7 @@
   },
   {
     "name": "EtherGem",
-    "network": "eip155-1987",
+    "networkId": "eip155-1987",
     "interface": "evm",
     "coins": [
       {
@@ -363,7 +363,7 @@
   },
   {
     "name": "Expanse Network",
-    "network": "eip155-2",
+    "networkId": "eip155-2",
     "interface": "evm",
     "coins": [
       {
@@ -383,7 +383,7 @@
   },
   {
     "name": "Akaroma",
-    "network": "eip155-200625",
+    "networkId": "eip155-200625",
     "interface": "evm",
     "coins": [
       {
@@ -403,7 +403,7 @@
   },
   {
     "name": "Webchain",
-    "network": "eip155-24484",
+    "networkId": "eip155-24484",
     "interface": "evm",
     "coins": [
       {
@@ -423,7 +423,7 @@
   },
   {
     "name": "ARTIS sigma1",
-    "network": "eip155-246529",
+    "networkId": "eip155-246529",
     "interface": "evm",
     "coins": [
       {
@@ -443,7 +443,7 @@
   },
   {
     "name": "ARTIS tau1",
-    "network": "eip155-246785",
+    "networkId": "eip155-246785",
     "interface": "evm",
     "coins": [
       {
@@ -463,7 +463,7 @@
   },
   {
     "name": "High Performance Blockchain",
-    "network": "eip155-269",
+    "networkId": "eip155-269",
     "interface": "evm",
     "coins": [
       {
@@ -483,7 +483,7 @@
   },
   {
     "name": "Auxilium Network Mainnet",
-    "network": "eip155-28945486",
+    "networkId": "eip155-28945486",
     "interface": "evm",
     "coins": [
       {
@@ -503,7 +503,7 @@
   },
   {
     "name": "Ethereum Testnet Ropsten",
-    "network": "eip155-3",
+    "networkId": "eip155-3",
     "interface": "evm",
     "coins": [
       {
@@ -523,7 +523,7 @@
   },
   {
     "name": "RSK Mainnet",
-    "network": "eip155-30",
+    "networkId": "eip155-30",
     "interface": "evm",
     "coins": [
       {
@@ -544,7 +544,7 @@
   },
   {
     "name": "RSK Testnet",
-    "network": "eip155-31",
+    "networkId": "eip155-31",
     "interface": "evm",
     "coins": [
       {
@@ -565,7 +565,7 @@
   },
   {
     "name": "Ethersocial Network",
-    "network": "eip155-31102",
+    "networkId": "eip155-31102",
     "interface": "evm",
     "coins": [
       {
@@ -585,7 +585,7 @@
   },
   {
     "name": "Pirl",
-    "network": "eip155-3125659152",
+    "networkId": "eip155-3125659152",
     "interface": "evm",
     "coins": [
       {
@@ -605,7 +605,7 @@
   },
   {
     "name": "Lisinski",
-    "network": "eip155-385",
+    "networkId": "eip155-385",
     "interface": "evm",
     "coins": [
       {
@@ -625,7 +625,7 @@
   },
   {
     "name": "Ethereum Testnet Rinkeby",
-    "network": "eip155-4",
+    "networkId": "eip155-4",
     "interface": "evm",
     "coins": [
       {
@@ -645,7 +645,7 @@
   },
   {
     "name": "Ethereum Testnet Kovan",
-    "network": "eip155-42",
+    "networkId": "eip155-42",
     "interface": "evm",
     "coins": [
       {
@@ -665,7 +665,7 @@
   },
   {
     "name": "Ethereum Testnet Görli",
-    "network": "eip155-5",
+    "networkId": "eip155-5",
     "interface": "evm",
     "coins": [
       {
@@ -687,7 +687,7 @@
   },
   {
     "name": "Ethereum Classic Testnet Kotti",
-    "network": "eip155-6",
+    "networkId": "eip155-6",
     "interface": "evm",
     "coins": [
       {
@@ -705,7 +705,7 @@
   },
   {
     "name": "GoChain",
-    "network": "eip155-60",
+    "networkId": "eip155-60",
     "interface": "evm",
     "coins": [
       {
@@ -725,7 +725,7 @@
   },
   {
     "name": "Ethereum Classic Mainnet",
-    "network": "eip155-61",
+    "networkId": "eip155-61",
     "interface": "evm",
     "coins": [
       {
@@ -745,7 +745,7 @@
   },
   {
     "name": "Aquachain",
-    "network": "eip155-61717561",
+    "networkId": "eip155-61717561",
     "interface": "evm",
     "coins": [
       {
@@ -766,7 +766,7 @@
   },
   {
     "name": "Ethereum Classic Testnet",
-    "network": "eip155-62",
+    "networkId": "eip155-62",
     "interface": "evm",
     "coins": [
       {
@@ -784,7 +784,7 @@
   },
   {
     "name": "Ellaism",
-    "network": "eip155-64",
+    "networkId": "eip155-64",
     "interface": "evm",
     "coins": [
       {
@@ -804,7 +804,7 @@
   },
   {
     "name": "Mix",
-    "network": "eip155-76",
+    "networkId": "eip155-76",
     "interface": "evm",
     "coins": [
       {
@@ -824,7 +824,7 @@
   },
   {
     "name": "POA Network Sokol",
-    "network": "eip155-77",
+    "networkId": "eip155-77",
     "interface": "evm",
     "coins": [
       {
@@ -844,7 +844,7 @@
   },
   {
     "name": "Musicoin",
-    "network": "eip155-7762959",
+    "networkId": "eip155-7762959",
     "interface": "evm",
     "coins": [
       {
@@ -864,7 +864,7 @@
   },
   {
     "name": "Ubiq Network Mainnet",
-    "network": "eip155-8",
+    "networkId": "eip155-8",
     "interface": "evm",
     "coins": [
       {
@@ -884,7 +884,7 @@
   },
   {
     "name": "Callisto Mainnet",
-    "network": "eip155-820",
+    "networkId": "eip155-820",
     "interface": "evm",
     "coins": [
       {
@@ -904,7 +904,7 @@
   },
   {
     "name": "Callisto Testnet",
-    "network": "eip155-821",
+    "networkId": "eip155-821",
     "interface": "evm",
     "coins": [
       {
@@ -922,7 +922,7 @@
   },
   {
     "name": "TomoChain",
-    "network": "eip155-88",
+    "networkId": "eip155-88",
     "interface": "evm",
     "coins": [
       {
@@ -942,7 +942,7 @@
   },
   {
     "name": "Ubiq Network Testnet",
-    "network": "eip155-9",
+    "networkId": "eip155-9",
     "interface": "evm",
     "coins": [
       {
@@ -960,7 +960,7 @@
   },
   {
     "name": "Nepal Blockchain Network",
-    "network": "eip155-977",
+    "networkId": "eip155-977",
     "interface": "evm",
     "coins": [
       {
@@ -981,7 +981,7 @@
   },
   {
     "name": "POA Network Core",
-    "network": "eip155-99",
+    "networkId": "eip155-99",
     "interface": "evm",
     "coins": [
       {

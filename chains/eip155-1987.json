@@ -1,6 +1,6 @@
 {
   "name": "EtherGem",
-  "network": "eip155-1987",
+  "networkId": "eip155-1987",
   "interface": "evm",
   "coins": [
     {

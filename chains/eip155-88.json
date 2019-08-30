@@ -1,6 +1,6 @@
 {
   "name": "TomoChain",
-  "network": "eip155-88",
+  "networkId": "eip155-88",
   "interface": "evm",
   "coins": [
     {

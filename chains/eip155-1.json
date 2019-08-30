@@ -1,6 +1,6 @@
 {
   "name": "Ethereum Mainnet",
-  "network": "eip155-1",
+  "networkId": "eip155-1",
   "interface": "evm",
   "coins": [
     {

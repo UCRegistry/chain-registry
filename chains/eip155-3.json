@@ -1,6 +1,6 @@
 {
   "name": "Ethereum Testnet Ropsten",
-  "network": "eip155-3",
+  "networkId": "eip155-3",
   "interface": "evm",
   "coins": [
     {

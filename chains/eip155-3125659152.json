@@ -1,6 +1,6 @@
 {
   "name": "Pirl",
-  "network": "eip155-3125659152",
+  "networkId": "eip155-3125659152",
   "interface": "evm",
   "coins": [
     {

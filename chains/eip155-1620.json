@@ -1,6 +1,6 @@
 {
   "name": "Atheios",
-  "network": "eip155-1620",
+  "networkId": "eip155-1620",
   "interface": "evm",
   "coins": [
     {

@@ -1,6 +1,6 @@
 {
   "name": "Ellaism",
-  "network": "eip155-64",
+  "networkId": "eip155-64",
   "interface": "evm",
   "coins": [
     {

@@ -1,6 +1,6 @@
 {
   "name": "Cosmos Hub",
-  "network": "cosmos-hub2",
+  "networkId": "cosmos-hub2",
   "interface": "cosmos",
   "coins": [
     {

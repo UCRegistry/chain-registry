@@ -1,6 +1,6 @@
 {
   "name": "Auxilium Network Mainnet",
-  "network": "eip155-28945486",
+  "networkId": "eip155-28945486",
   "interface": "evm",
   "coins": [
     {

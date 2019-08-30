@@ -1,6 +1,6 @@
 {
   "name": "Musicoin",
-  "network": "eip155-7762959",
+  "networkId": "eip155-7762959",
   "interface": "evm",
   "coins": [
     {

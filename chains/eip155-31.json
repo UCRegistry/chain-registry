@@ -1,6 +1,6 @@
 {
   "name": "RSK Testnet",
-  "network": "eip155-31",
+  "networkId": "eip155-31",
   "interface": "evm",
   "coins": [
     {

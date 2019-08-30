@@ -1,6 +1,6 @@
 {
   "name": "GoChain",
-  "network": "eip155-60",
+  "networkId": "eip155-60",
   "interface": "evm",
   "coins": [
     {

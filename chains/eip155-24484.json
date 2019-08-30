@@ -1,6 +1,6 @@
 {
   "name": "Webchain",
-  "network": "eip155-24484",
+  "networkId": "eip155-24484",
   "interface": "evm",
   "coins": [
     {

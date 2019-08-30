@@ -1,6 +1,6 @@
 {
   "name": "Callisto Testnet",
-  "network": "eip155-821",
+  "networkId": "eip155-821",
   "interface": "evm",
   "coins": [
     {

@@ -1,6 +1,6 @@
 {
   "name": "ARTIS tau1",
-  "network": "eip155-246785",
+  "networkId": "eip155-246785",
   "interface": "evm",
   "coins": [
     {

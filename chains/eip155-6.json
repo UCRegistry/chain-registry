@@ -1,6 +1,6 @@
 {
   "name": "Ethereum Classic Testnet Kotti",
-  "network": "eip155-6",
+  "networkId": "eip155-6",
   "interface": "evm",
   "coins": [
     {

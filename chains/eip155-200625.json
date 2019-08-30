@@ -1,6 +1,6 @@
 {
   "name": "Akaroma",
-  "network": "eip155-200625",
+  "networkId": "eip155-200625",
   "interface": "evm",
   "coins": [
     {

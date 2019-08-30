@@ -1,6 +1,6 @@
 {
   "name": "POA Network Core",
-  "network": "eip155-99",
+  "networkId": "eip155-99",
   "interface": "evm",
   "coins": [
     {

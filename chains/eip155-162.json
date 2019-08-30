@@ -1,6 +1,6 @@
 {
   "name": "Lightstreams Testnet",
-  "network": "eip155-162",
+  "networkId": "eip155-162",
   "interface": "evm",
   "coins": [
     {

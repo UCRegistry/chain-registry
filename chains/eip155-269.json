@@ -1,6 +1,6 @@
 {
   "name": "High Performance Blockchain",
-  "network": "eip155-269",
+  "networkId": "eip155-269",
   "interface": "evm",
   "coins": [
     {

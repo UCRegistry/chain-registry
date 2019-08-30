@@ -1,6 +1,6 @@
 {
   "name": "Metadium Mainnet",
-  "network": "eip155-11",
+  "networkId": "eip155-11",
   "interface": "evm",
   "coins": [
     {

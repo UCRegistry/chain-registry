@@ -1,6 +1,6 @@
 {
   "name": "RSK Mainnet",
-  "network": "eip155-30",
+  "networkId": "eip155-30",
   "interface": "evm",
   "coins": [
     {

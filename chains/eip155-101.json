@@ -1,6 +1,6 @@
 {
   "name": "EtherInc",
-  "network": "eip155-101",
+  "networkId": "eip155-101",
   "interface": "evm",
   "coins": [
     {

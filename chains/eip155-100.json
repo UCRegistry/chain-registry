@@ -1,6 +1,6 @@
 {
   "name": "xDAI Chain",
-  "network": "eip155-100",
+  "networkId": "eip155-100",
   "interface": "evm",
   "coins": [
     {

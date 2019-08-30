@@ -1,6 +1,6 @@
 {
   "name": "Ethereum Testnet Kovan",
-  "network": "eip155-42",
+  "networkId": "eip155-42",
   "interface": "evm",
   "coins": [
     {

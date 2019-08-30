@@ -1,6 +1,6 @@
 {
   "name": "Mix",
-  "network": "eip155-76",
+  "networkId": "eip155-76",
   "interface": "evm",
   "coins": [
     {
