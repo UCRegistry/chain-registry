@@ -89,7 +89,7 @@ function formatRpcUrl (rpcUrl) {
 async function writeJson (filePath, json) {
   // console.log('Overwriting', filePath)
   return new Promise((resolve, reject) => {
-    const data = JSON.stringify(json, null, 2)
+    const data = JSON.stringify(json, null, 2) + '\n'
     fs.writeFile(filePath, data, (err, res) => {
       if (err) {
         reject(err)
