@@ -1,5 +1,4 @@
 {
-  "id": "did:cosmos:cosmos-hub2",
   "name": "Cosmos Hub",
   "network": "cosmos-hub2",
   "interface": "cosmos",

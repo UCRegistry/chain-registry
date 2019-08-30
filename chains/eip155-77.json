@@ -1,5 +1,4 @@
 {
-  "id": "did:ethr:eip155-77",
   "name": "POA Network Sokol",
   "network": "eip155-77",
   "interface": "evm",

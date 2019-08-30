@@ -1,5 +1,4 @@
 {
-  "id": "did:ethr:eip155-5",
   "name": "Ethereum Testnet Görli",
   "network": "eip155-5",
   "interface": "evm",

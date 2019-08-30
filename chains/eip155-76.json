@@ -1,5 +1,4 @@
 {
-  "id": "did:ethr:eip155-76",
   "name": "Mix",
   "network": "eip155-76",
   "interface": "evm",

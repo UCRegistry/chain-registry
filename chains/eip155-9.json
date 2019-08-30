@@ -1,5 +1,4 @@
 {
-  "id": "did:ethr:eip155-9",
   "name": "Ubiq Network Testnet",
   "network": "eip155-9",
   "interface": "evm",

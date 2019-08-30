@@ -1,6 +1,5 @@
 [
   {
-    "id": "did:cosmos:commercio-testnet1001",
     "name": "Commercio.network Testnet 1001",
     "network": "commercio-testnet1001",
     "interface": "cosmos",
@@ -21,7 +20,6 @@
     }
   },
   {
-    "id": "did:cosmos:cosmos-hub2",
     "name": "Cosmos Hub",
     "network": "cosmos-hub2",
     "interface": "cosmos",
@@ -42,29 +40,6 @@
     }
   },
   {
-    "id": "did:ethr:eip155-1",
-    "name": "Ethereum Mainnet",
-    "network": "eip155-1",
-    "interface": "evm",
-    "coins": [
-      {
-        "name": "Ether",
-        "symbol": "ETH",
-        "denom": "wei",
-        "exponent": 18
-      }
-    ],
-    "rpc": [
-      "https://mainnet.infura.io/v3/${INFURA_API_KEY}",
-      "https://api.mycryptoapi.com/eth"
-    ],
-    "custom": {
-      "chainId": 1,
-      "networkId": 1
-    }
-  },
-  {
-    "id": "did:ethr:eip155-100",
     "name": "xDAI Chain",
     "network": "eip155-100",
     "interface": "evm",
@@ -85,7 +60,6 @@
     }
   },
   {
-    "id": "did:ethr:eip155-101",
     "name": "EtherInc",
     "network": "eip155-101",
     "interface": "evm",
@@ -106,49 +80,26 @@
     }
   },
   {
-    "id": "did:ethr:eip155-108",
-    "name": "ThunderCore Mainnet",
-    "network": "eip155-108",
+    "name": "Metadium Testnet",
+    "network": "eip155-12",
     "interface": "evm",
     "coins": [
       {
-        "name": "ThunderCore Mainnet Ether",
-        "symbol": "TT",
+        "name": "Metadium Testnet Ether",
+        "symbol": "KAL",
         "denom": "wei",
         "exponent": 18
       }
     ],
     "rpc": [
-      "https://mainnet-rpc.thundercore.com"
+      "https://api.metadium.com/dev"
     ],
     "custom": {
-      "chainId": 108,
-      "networkId": 108
+      "chainId": 12,
+      "networkId": 12
     }
   },
   {
-    "id": "did:ethr:eip155-11",
-    "name": "Metadium Mainnet",
-    "network": "eip155-11",
-    "interface": "evm",
-    "coins": [
-      {
-        "name": "Metadium Mainnet Ether",
-        "symbol": "META",
-        "denom": "wei",
-        "exponent": 18
-      }
-    ],
-    "rpc": [
-      "https://api.metadium.com/prod"
-    ],
-    "custom": {
-      "chainId": 11,
-      "networkId": 11
-    }
-  },
-  {
-    "id": "did:ethr:eip155-1122334455",
     "name": "IPOS Network",
     "network": "eip155-1122334455",
     "interface": "evm",
@@ -170,28 +121,6 @@
     }
   },
   {
-    "id": "did:ethr:eip155-12",
-    "name": "Metadium Testnet",
-    "network": "eip155-12",
-    "interface": "evm",
-    "coins": [
-      {
-        "name": "Metadium Testnet Ether",
-        "symbol": "KAL",
-        "denom": "wei",
-        "exponent": 18
-      }
-    ],
-    "rpc": [
-      "https://api.metadium.com/dev"
-    ],
-    "custom": {
-      "chainId": 12,
-      "networkId": 12
-    }
-  },
-  {
-    "id": "did:ethr:eip155-1313114",
     "name": "Ether-1",
     "network": "eip155-1313114",
     "interface": "evm",
@@ -212,7 +141,6 @@
     }
   },
   {
-    "id": "did:ethr:eip155-13371337",
     "name": "PepChain Churchill",
     "network": "eip155-13371337",
     "interface": "evm",
@@ -233,28 +161,6 @@
     }
   },
   {
-    "id": "did:ethr:eip155-162",
-    "name": "Lightstreams Testnet",
-    "network": "eip155-162",
-    "interface": "evm",
-    "coins": [
-      {
-        "name": "Lightstreams PHT",
-        "symbol": "PHT",
-        "denom": "wei",
-        "exponent": 18
-      }
-    ],
-    "rpc": [
-      "https://node.sirius.lightstreams.io"
-    ],
-    "custom": {
-      "chainId": 162,
-      "networkId": 162
-    }
-  },
-  {
-    "id": "did:ethr:eip155-1620",
     "name": "Atheios",
     "network": "eip155-1620",
     "interface": "evm",
@@ -275,7 +181,26 @@
     }
   },
   {
-    "id": "did:ethr:eip155-163",
+    "name": "Lightstreams Testnet",
+    "network": "eip155-162",
+    "interface": "evm",
+    "coins": [
+      {
+        "name": "Lightstreams PHT",
+        "symbol": "PHT",
+        "denom": "wei",
+        "exponent": 18
+      }
+    ],
+    "rpc": [
+      "https://node.sirius.lightstreams.io"
+    ],
+    "custom": {
+      "chainId": 162,
+      "networkId": 162
+    }
+  },
+  {
     "name": "Lightstreams Mainnet",
     "network": "eip155-163",
     "interface": "evm",
@@ -296,7 +221,6 @@
     }
   },
   {
-    "id": "did:ethr:eip155-18",
     "name": "ThunderCore Testnet",
     "network": "eip155-18",
     "interface": "evm",
@@ -317,28 +241,6 @@
     }
   },
   {
-    "id": "did:ethr:eip155-18289463",
-    "name": "IOLite",
-    "network": "eip155-18289463",
-    "interface": "evm",
-    "coins": [
-      {
-        "name": "IOLite Ether",
-        "symbol": "ILT",
-        "denom": "wei",
-        "exponent": 18
-      }
-    ],
-    "rpc": [
-      "https://net.iolite.io"
-    ],
-    "custom": {
-      "chainId": 18289463,
-      "networkId": 18289463
-    }
-  },
-  {
-    "id": "did:ethr:eip155-1856",
     "name": "Teslafunds",
     "network": "eip155-1856",
     "interface": "evm",
@@ -359,7 +261,26 @@
     }
   },
   {
-    "id": "did:ethr:eip155-1987",
+    "name": "IOLite",
+    "network": "eip155-18289463",
+    "interface": "evm",
+    "coins": [
+      {
+        "name": "IOLite Ether",
+        "symbol": "ILT",
+        "denom": "wei",
+        "exponent": 18
+      }
+    ],
+    "rpc": [
+      "https://net.iolite.io"
+    ],
+    "custom": {
+      "chainId": 18289463,
+      "networkId": 18289463
+    }
+  },
+  {
     "name": "EtherGem",
     "network": "eip155-1987",
     "interface": "evm",
@@ -380,7 +301,6 @@
     }
   },
   {
-    "id": "did:ethr:eip155-2",
     "name": "Expanse Network",
     "network": "eip155-2",
     "interface": "evm",
@@ -401,28 +321,26 @@
     }
   },
   {
-    "id": "did:ethr:eip155-200625",
-    "name": "Akaroma",
-    "network": "eip155-200625",
+    "name": "ThunderCore Mainnet",
+    "network": "eip155-108",
     "interface": "evm",
     "coins": [
       {
-        "name": "Akaroma Ether",
-        "symbol": "AKA",
+        "name": "ThunderCore Mainnet Ether",
+        "symbol": "TT",
         "denom": "wei",
         "exponent": 18
       }
     ],
     "rpc": [
-      "https://remote.akroma.io"
+      "https://mainnet-rpc.thundercore.com"
     ],
     "custom": {
-      "chainId": 200625,
-      "networkId": 200625
+      "chainId": 108,
+      "networkId": 108
     }
   },
   {
-    "id": "did:ethr:eip155-24484",
     "name": "Webchain",
     "network": "eip155-24484",
     "interface": "evm",
@@ -443,7 +361,6 @@
     }
   },
   {
-    "id": "did:ethr:eip155-246529",
     "name": "ARTIS sigma1",
     "network": "eip155-246529",
     "interface": "evm",
@@ -464,7 +381,6 @@
     }
   },
   {
-    "id": "did:ethr:eip155-246785",
     "name": "ARTIS tau1",
     "network": "eip155-246785",
     "interface": "evm",
@@ -485,28 +401,6 @@
     }
   },
   {
-    "id": "did:ethr:eip155-269",
-    "name": "High Performance Blockchain",
-    "network": "eip155-269",
-    "interface": "evm",
-    "coins": [
-      {
-        "name": "High Performance Blockchain Ether",
-        "symbol": "HPB",
-        "denom": "wei",
-        "exponent": 18
-      }
-    ],
-    "rpc": [
-      "https://node.hpb.blue"
-    ],
-    "custom": {
-      "chainId": 269,
-      "networkId": 100
-    }
-  },
-  {
-    "id": "did:ethr:eip155-28945486",
     "name": "Auxilium Network Mainnet",
     "network": "eip155-28945486",
     "interface": "evm",
@@ -527,28 +421,26 @@
     }
   },
   {
-    "id": "did:ethr:eip155-3",
-    "name": "Ethereum Testnet Ropsten",
-    "network": "eip155-3",
+    "name": "High Performance Blockchain",
+    "network": "eip155-269",
     "interface": "evm",
     "coins": [
       {
-        "name": "Ropsten Ether",
-        "symbol": "ROP",
+        "name": "High Performance Blockchain Ether",
+        "symbol": "HPB",
         "denom": "wei",
         "exponent": 18
       }
     ],
     "rpc": [
-      "https://ropsten.infura.io/v3/${INFURA_API_KEY}"
+      "https://node.hpb.blue"
     ],
     "custom": {
-      "chainId": 3,
-      "networkId": 3
+      "chainId": 269,
+      "networkId": 100
     }
   },
   {
-    "id": "did:ethr:eip155-30",
     "name": "RSK Mainnet",
     "network": "eip155-30",
     "interface": "evm",
@@ -570,7 +462,106 @@
     }
   },
   {
-    "id": "did:ethr:eip155-31",
+    "name": "Ethereum Testnet Ropsten",
+    "network": "eip155-3",
+    "interface": "evm",
+    "coins": [
+      {
+        "name": "Ropsten Ether",
+        "symbol": "ROP",
+        "denom": "wei",
+        "exponent": 18
+      }
+    ],
+    "rpc": [
+      "https://ropsten.infura.io/v3/${INFURA_API_KEY}"
+    ],
+    "custom": {
+      "chainId": 3,
+      "networkId": 3
+    }
+  },
+  {
+    "name": "Ethersocial Network",
+    "network": "eip155-31102",
+    "interface": "evm",
+    "coins": [
+      {
+        "name": "Ethersocial Network Ether",
+        "symbol": "ESN",
+        "denom": "wei",
+        "exponent": 18
+      }
+    ],
+    "rpc": [
+      "https://api.esn.gonspool.com"
+    ],
+    "custom": {
+      "chainId": 31102,
+      "networkId": 1
+    }
+  },
+  {
+    "name": "Pirl",
+    "network": "eip155-3125659152",
+    "interface": "evm",
+    "coins": [
+      {
+        "name": "Pirl Ether",
+        "symbol": "PIRL",
+        "denom": "wei",
+        "exponent": 18
+      }
+    ],
+    "rpc": [
+      "https://wallrpc.pirl.io"
+    ],
+    "custom": {
+      "chainId": 3125659152,
+      "networkId": 3125659152
+    }
+  },
+  {
+    "name": "Lisinski",
+    "network": "eip155-385",
+    "interface": "evm",
+    "coins": [
+      {
+        "name": "Lisinski Ether",
+        "symbol": "LISINSKI",
+        "denom": "wei",
+        "exponent": 18
+      }
+    ],
+    "rpc": [
+      "https://rpc-bitfalls1.lisinski.online"
+    ],
+    "custom": {
+      "chainId": 385,
+      "networkId": 385
+    }
+  },
+  {
+    "name": "Ethereum Testnet Rinkeby",
+    "network": "eip155-4",
+    "interface": "evm",
+    "coins": [
+      {
+        "name": "Rinkeby Ether",
+        "symbol": "RIN",
+        "denom": "wei",
+        "exponent": 18
+      }
+    ],
+    "rpc": [
+      "https://rinkeby.infura.io/v3/${INFURA_API_KEY}"
+    ],
+    "custom": {
+      "chainId": 4,
+      "networkId": 4
+    }
+  },
+  {
     "name": "RSK Testnet",
     "network": "eip155-31",
     "interface": "evm",
@@ -592,91 +583,6 @@
     }
   },
   {
-    "id": "did:ethr:eip155-31102",
-    "name": "Ethersocial Network",
-    "network": "eip155-31102",
-    "interface": "evm",
-    "coins": [
-      {
-        "name": "Ethersocial Network Ether",
-        "symbol": "ESN",
-        "denom": "wei",
-        "exponent": 18
-      }
-    ],
-    "rpc": [
-      "https://api.esn.gonspool.com"
-    ],
-    "custom": {
-      "chainId": 31102,
-      "networkId": 1
-    }
-  },
-  {
-    "id": "did:ethr:eip155-3125659152",
-    "name": "Pirl",
-    "network": "eip155-3125659152",
-    "interface": "evm",
-    "coins": [
-      {
-        "name": "Pirl Ether",
-        "symbol": "PIRL",
-        "denom": "wei",
-        "exponent": 18
-      }
-    ],
-    "rpc": [
-      "https://wallrpc.pirl.io"
-    ],
-    "custom": {
-      "chainId": 3125659152,
-      "networkId": 3125659152
-    }
-  },
-  {
-    "id": "did:ethr:eip155-385",
-    "name": "Lisinski",
-    "network": "eip155-385",
-    "interface": "evm",
-    "coins": [
-      {
-        "name": "Lisinski Ether",
-        "symbol": "LISINSKI",
-        "denom": "wei",
-        "exponent": 18
-      }
-    ],
-    "rpc": [
-      "https://rpc-bitfalls1.lisinski.online"
-    ],
-    "custom": {
-      "chainId": 385,
-      "networkId": 385
-    }
-  },
-  {
-    "id": "did:ethr:eip155-4",
-    "name": "Ethereum Testnet Rinkeby",
-    "network": "eip155-4",
-    "interface": "evm",
-    "coins": [
-      {
-        "name": "Rinkeby Ether",
-        "symbol": "RIN",
-        "denom": "wei",
-        "exponent": 18
-      }
-    ],
-    "rpc": [
-      "https://rinkeby.infura.io/v3/${INFURA_API_KEY}"
-    ],
-    "custom": {
-      "chainId": 4,
-      "networkId": 4
-    }
-  },
-  {
-    "id": "did:ethr:eip155-42",
     "name": "Ethereum Testnet Kovan",
     "network": "eip155-42",
     "interface": "evm",
@@ -697,7 +603,6 @@
     }
   },
   {
-    "id": "did:ethr:eip155-5",
     "name": "Ethereum Testnet Görli",
     "network": "eip155-5",
     "interface": "evm",
@@ -720,26 +625,6 @@
     }
   },
   {
-    "id": "did:ethr:eip155-6",
-    "name": "Ethereum Classic Testnet Kotti",
-    "network": "eip155-6",
-    "interface": "evm",
-    "coins": [
-      {
-        "name": "Kotti Ether",
-        "symbol": "KOT",
-        "denom": "wei",
-        "exponent": 18
-      }
-    ],
-    "rpc": [],
-    "custom": {
-      "chainId": 6,
-      "networkId": 6
-    }
-  },
-  {
-    "id": "did:ethr:eip155-60",
     "name": "GoChain",
     "network": "eip155-60",
     "interface": "evm",
@@ -760,28 +645,26 @@
     }
   },
   {
-    "id": "did:ethr:eip155-61",
-    "name": "Ethereum Classic Mainnet",
-    "network": "eip155-61",
+    "name": "Akaroma",
+    "network": "eip155-200625",
     "interface": "evm",
     "coins": [
       {
-        "name": "Ethereum Classic Ether",
-        "symbol": "ETC",
+        "name": "Akaroma Ether",
+        "symbol": "AKA",
         "denom": "wei",
         "exponent": 18
       }
     ],
     "rpc": [
-      "https://ethereumclassic.network"
+      "https://remote.akroma.io"
     ],
     "custom": {
-      "chainId": 61,
-      "networkId": 1
+      "chainId": 200625,
+      "networkId": 200625
     }
   },
   {
-    "id": "did:ethr:eip155-61717561",
     "name": "Aquachain",
     "network": "eip155-61717561",
     "interface": "evm",
@@ -803,7 +686,26 @@
     }
   },
   {
-    "id": "did:ethr:eip155-62",
+    "name": "Metadium Mainnet",
+    "network": "eip155-11",
+    "interface": "evm",
+    "coins": [
+      {
+        "name": "Metadium Mainnet Ether",
+        "symbol": "META",
+        "denom": "wei",
+        "exponent": 18
+      }
+    ],
+    "rpc": [
+      "https://api.metadium.com/prod"
+    ],
+    "custom": {
+      "chainId": 11,
+      "networkId": 11
+    }
+  },
+  {
     "name": "Ethereum Classic Testnet",
     "network": "eip155-62",
     "interface": "evm",
@@ -822,7 +724,6 @@
     }
   },
   {
-    "id": "did:ethr:eip155-64",
     "name": "Ellaism",
     "network": "eip155-64",
     "interface": "evm",
@@ -843,7 +744,6 @@
     }
   },
   {
-    "id": "did:ethr:eip155-76",
     "name": "Mix",
     "network": "eip155-76",
     "interface": "evm",
@@ -864,7 +764,6 @@
     }
   },
   {
-    "id": "did:ethr:eip155-77",
     "name": "POA Network Sokol",
     "network": "eip155-77",
     "interface": "evm",
@@ -885,7 +784,6 @@
     }
   },
   {
-    "id": "did:ethr:eip155-7762959",
     "name": "Musicoin",
     "network": "eip155-7762959",
     "interface": "evm",
@@ -906,28 +804,6 @@
     }
   },
   {
-    "id": "did:ethr:eip155-8",
-    "name": "Ubiq Network Mainnet",
-    "network": "eip155-8",
-    "interface": "evm",
-    "coins": [
-      {
-        "name": "Ubiq Ether",
-        "symbol": "UBQ",
-        "denom": "wei",
-        "exponent": 18
-      }
-    ],
-    "rpc": [
-      "https://pyrus2.ubiqscan.io"
-    ],
-    "custom": {
-      "chainId": 8,
-      "networkId": 1
-    }
-  },
-  {
-    "id": "did:ethr:eip155-820",
     "name": "Callisto Mainnet",
     "network": "eip155-820",
     "interface": "evm",
@@ -948,7 +824,24 @@
     }
   },
   {
-    "id": "did:ethr:eip155-821",
+    "name": "Ethereum Classic Testnet Kotti",
+    "network": "eip155-6",
+    "interface": "evm",
+    "coins": [
+      {
+        "name": "Kotti Ether",
+        "symbol": "KOT",
+        "denom": "wei",
+        "exponent": 18
+      }
+    ],
+    "rpc": [],
+    "custom": {
+      "chainId": 6,
+      "networkId": 6
+    }
+  },
+  {
     "name": "Callisto Testnet",
     "network": "eip155-821",
     "interface": "evm",
@@ -967,7 +860,6 @@
     }
   },
   {
-    "id": "did:ethr:eip155-88",
     "name": "TomoChain",
     "network": "eip155-88",
     "interface": "evm",
@@ -988,7 +880,6 @@
     }
   },
   {
-    "id": "did:ethr:eip155-9",
     "name": "Ubiq Network Testnet",
     "network": "eip155-9",
     "interface": "evm",
@@ -1007,7 +898,6 @@
     }
   },
   {
-    "id": "did:ethr:eip155-977",
     "name": "Nepal Blockchain Network",
     "network": "eip155-977",
     "interface": "evm",
@@ -1029,7 +919,6 @@
     }
   },
   {
-    "id": "did:ethr:eip155-99",
     "name": "POA Network Core",
     "network": "eip155-99",
     "interface": "evm",
@@ -1047,6 +936,67 @@
     "custom": {
       "chainId": 99,
       "networkId": 99
+    }
+  },
+  {
+    "name": "Ethereum Mainnet",
+    "network": "eip155-1",
+    "interface": "evm",
+    "coins": [
+      {
+        "name": "Ether",
+        "symbol": "ETH",
+        "denom": "wei",
+        "exponent": 18
+      }
+    ],
+    "rpc": [
+      "https://mainnet.infura.io/v3/${INFURA_API_KEY}",
+      "https://api.mycryptoapi.com/eth"
+    ],
+    "custom": {
+      "chainId": 1,
+      "networkId": 1
+    }
+  },
+  {
+    "name": "Ethereum Classic Mainnet",
+    "network": "eip155-61",
+    "interface": "evm",
+    "coins": [
+      {
+        "name": "Ethereum Classic Ether",
+        "symbol": "ETC",
+        "denom": "wei",
+        "exponent": 18
+      }
+    ],
+    "rpc": [
+      "https://ethereumclassic.network"
+    ],
+    "custom": {
+      "chainId": 61,
+      "networkId": 1
+    }
+  },
+  {
+    "name": "Ubiq Network Mainnet",
+    "network": "eip155-8",
+    "interface": "evm",
+    "coins": [
+      {
+        "name": "Ubiq Ether",
+        "symbol": "UBQ",
+        "denom": "wei",
+        "exponent": 18
+      }
+    ],
+    "rpc": [
+      "https://pyrus2.ubiqscan.io"
+    ],
+    "custom": {
+      "chainId": 8,
+      "networkId": 1
     }
   }
 ]

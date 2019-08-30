@@ -1,5 +1,4 @@
 {
-  "id": "did:ethr:eip155-2",
   "name": "Expanse Network",
   "network": "eip155-2",
   "interface": "evm",

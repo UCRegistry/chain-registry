@@ -1,5 +1,4 @@
 {
-  "id": "did:ethr:eip155-31102",
   "name": "Ethersocial Network",
   "network": "eip155-31102",
   "interface": "evm",

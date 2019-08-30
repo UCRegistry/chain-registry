@@ -1,5 +1,4 @@
 {
-  "id": "did:ethr:eip155-977",
   "name": "Nepal Blockchain Network",
   "network": "eip155-977",
   "interface": "evm",

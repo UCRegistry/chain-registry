@@ -1,5 +1,4 @@
 {
-  "id": "did:ethr:eip155-162",
   "name": "Lightstreams Testnet",
   "network": "eip155-162",
   "interface": "evm",
