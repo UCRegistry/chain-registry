@@ -21,7 +21,7 @@ to make sure that clients will be able to properly handle your definition.
     },
     "interface": {
       "type": "string",
-      "enum:" [
+      "enum": [
         "cosmos",
         "evm"
       ]
