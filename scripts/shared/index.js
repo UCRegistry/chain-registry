@@ -55,7 +55,7 @@ function logPadded (...args) {
 }
 
 function logTitle (title) {
-  let output = ` ${title.toUpperCase()} `
+  let output = ` ${title} `
   output = pad(output, 32, '-', true)
   output = pad(output, 64, '-')
   console.log(output)
@@ -181,9 +181,14 @@ async function verifyJson (json) {
 
 async function saveList (array, title, log = true) {
   const filePath = path.join(ROOT_DIRECTORY, `${title}.json`)
+  return saveListToFile(array, filePath, log)
+}
+
+async function saveListToFile (array, filePath, log = true) {
   const json = sortBy(array, ['networkId'])
   await writeJson(filePath, json)
   if (log) {
+    const title = path.basename(filePath)
     logTable(array, title)
   }
 }
@@ -217,5 +222,6 @@ module.exports = {
   verifyJson,
   sortBy,
   saveList,
+  saveListToFile,
   capitalize
 }

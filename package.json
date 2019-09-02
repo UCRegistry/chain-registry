@@ -5,6 +5,7 @@
   "private": true,
   "main": "index.js",
   "scripts": {
+    "build": "node ./scripts/build-api.js",
     "parse": "node ./scripts/parse.js"
   },
   "keywords": [],
