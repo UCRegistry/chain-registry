@@ -25,3 +25,13 @@ if [[ -n "$SOURCE_CHANGES" ]]; then
   exit 1
 fi
 fold_end
+
+fold_start "build"
+npm run build
+fold_end
+
+if [[ "$TRAVIS_BRANCH" == "master" ]] && [[ "$TRAVIS_TAG" == "" ]] && [[ "$TRAVIS_PULL_REQUEST_BRANCH" == "" ]]; then
+  fold_start "deploy"
+  npm run deploy -- --token "$FIREBASE_TOKEN"
+  fold_end
+fi

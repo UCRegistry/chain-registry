@@ -6,6 +6,7 @@
   "main": "index.js",
   "scripts": {
     "build": "node ./scripts/build-api.js",
+    "deploy": "firebase deploy --project universal-chain-registry --only hosting:universal-chain-registry",
     "parse": "node ./scripts/parse.js"
   },
   "keywords": [],
