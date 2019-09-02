@@ -35,14 +35,16 @@ fs.readdir(CHAINS_DIRECTORY, async function (err, files) {
       if (fileStat.isFile() && ext === '.json') {
         let chainData = require(filePath)
 
+        // Single network files
         const pretty = false
         await writeJson(path.join(apiNetworks, `${chainData.networkId}.json`), chainData, pretty)
+
+        // Lists of networks
         all.push(chainData)
-        if (chainData.interface.toLowerCase() === 'evm') {
-          evm.push(chainData)
-        } else if (chainData.interface.toLowerCase() === 'cosmos') {
-          cosmos.push(chainData)
-        }
+        if (chainData.interface.toLowerCase() === 'evm') evm.push(chainData)
+        if (chainData.interface.toLowerCase() === 'cosmos') cosmos.push(chainData)
+
+        // Search index
         index.push({
           name: chainData.name,
           networkId: chainData.networkId
