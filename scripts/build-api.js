@@ -35,7 +35,8 @@ fs.readdir(CHAINS_DIRECTORY, async function (err, files) {
       if (fileStat.isFile() && ext === '.json') {
         let chainData = require(filePath)
 
-        await writeJson(path.join(apiNetworks, `${chainData.networkId}.json`), chainData)
+        const pretty = false
+        await writeJson(path.join(apiNetworks, `${chainData.networkId}.json`), chainData, pretty)
         all.push(chainData)
         if (chainData.interface.toLowerCase() === 'evm') {
           evm.push(chainData)

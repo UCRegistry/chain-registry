@@ -86,10 +86,10 @@ function formatRpcUrl (rpcUrl) {
   )
 }
 
-async function writeJson (filePath, json) {
+async function writeJson (filePath, json, pretty = true) {
   // console.log('Overwriting', filePath)
   return new Promise((resolve, reject) => {
-    const data = JSON.stringify(json, null, 2) + '\n'
+    const data = JSON.stringify(json, null, pretty ? 2 : null) + '\n'
     fs.writeFile(filePath, data, (err, res) => {
       if (err) {
         reject(err)
@@ -181,12 +181,13 @@ async function verifyJson (json) {
 
 async function saveList (array, title, log = true) {
   const filePath = path.join(ROOT_DIRECTORY, `${title}.json`)
-  return saveListToFile(array, filePath, log)
+  const pretty = true
+  return saveListToFile(array, filePath, log, pretty)
 }
 
-async function saveListToFile (array, filePath, log = true) {
+async function saveListToFile (array, filePath, pretty = false, log = true) {
   const json = sortBy(array, ['networkId'])
-  await writeJson(filePath, json)
+  await writeJson(filePath, json, pretty)
   if (log) {
     const title = path.basename(filePath)
     logTable(array, title)
