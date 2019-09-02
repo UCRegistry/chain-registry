@@ -1,5 +1,7 @@
 .DS_Store
 .env
+.firebaserc
+.firebase/
 node_modules/
 
 # Build output
