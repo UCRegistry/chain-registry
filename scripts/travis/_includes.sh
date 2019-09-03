@@ -8,7 +8,7 @@ function fold_start() {
 
   if [[ "${TRAVIS_COMMIT:-}" != "" ]]; then
     travis_fold start "$CURRENT_FOLD_NAME"
-    travis_time_start
+    travis_time_start "$CURRENT_FOLD_NAME"
   else
     echo "Starting $CURRENT_FOLD_NAME"
   fi
@@ -16,7 +16,7 @@ function fold_start() {
 
 function fold_end() {
   if [[ "${TRAVIS_COMMIT:-}" != "" ]]; then
-    travis_time_finish
+    travis_time_finish "$CURRENT_FOLD_NAME"
     travis_fold end "$CURRENT_FOLD_NAME"
   else
     echo "Done with $CURRENT_FOLD_NAME"
