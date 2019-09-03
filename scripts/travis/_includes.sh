@@ -10,7 +10,7 @@ function fold_start() {
     travis_fold start "$CURRENT_FOLD_NAME"
     travis_time_start
   else
-    echo "Staring $CURRENT_FOLD_NAME"
+    echo "Starting $CURRENT_FOLD_NAME"
   fi
 }
 
