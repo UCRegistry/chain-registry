@@ -1,13 +1,13 @@
 {
   "name": "Cosmos Hub",
-  "networkId": "cosmos-hub2",
+  "networkId": "cosmoshub-2",
   "interface": "cosmos",
   "coins": [
     {
       "name": "Atom",
       "symbol": "ATM",
       "denom": "uatom",
-      "exponent": 9
+      "exponent": 6
     }
   ],
   "rpc": [
