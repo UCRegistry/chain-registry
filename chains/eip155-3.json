@@ -10,7 +10,7 @@
       "exponent": 18
     }
   ],
-  "rpc": [
+  "test_rpc": [
     "https://ropsten.infura.io/v3/${INFURA_API_KEY}"
   ],
   "custom": {

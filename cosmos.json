@@ -11,7 +11,7 @@
         "exponent": 6
       }
     ],
-    "rpc": [
+    "test_rpc": [
       "http://rpc.n01c01p1f2.commercio.network"
     ],
     "custom": {
@@ -31,7 +31,7 @@
         "exponent": 9
       }
     ],
-    "rpc": [
+    "test_rpc": [
       "http://178.128.246.154:26657"
     ],
     "custom": {

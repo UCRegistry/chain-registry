@@ -10,7 +10,7 @@
       "exponent": 18
     }
   ],
-  "rpc": [
+  "test_rpc": [
     "https://rpc.tau1.artis.network"
   ],
   "custom": {

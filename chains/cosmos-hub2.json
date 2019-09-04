@@ -10,7 +10,7 @@
       "exponent": 9
     }
   ],
-  "rpc": [
+  "test_rpc": [
     "http://178.128.246.154:26657"
   ],
   "custom": {

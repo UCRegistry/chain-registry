@@ -10,7 +10,7 @@
       "exponent": 18
     }
   ],
-  "rpc": [
+  "test_rpc": [
     "https://c.onical.org",
     "https://tx.aquacha.in/api"
   ],
