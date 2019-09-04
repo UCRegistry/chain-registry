@@ -8,5 +8,5 @@ node_modules/
 dist/
 
 # Editors
-.idea
-.vscode
+/.idea
+/.vscode
