@@ -10,7 +10,7 @@
       "exponent": 18
     }
   ],
-  "test_rpc": [
+  "testRpc": [
     "https://jsonrpc.ellaism.org"
   ],
   "custom": {

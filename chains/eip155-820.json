@@ -10,7 +10,7 @@
       "exponent": 18
     }
   ],
-  "test_rpc": [
+  "testRpc": [
     "https://clo-geth.0xinfra.com"
   ],
   "custom": {
