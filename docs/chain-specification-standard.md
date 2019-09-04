@@ -59,19 +59,19 @@ to make sure that clients will be able to properly handle your definition.
         }
       ]
     },
-    "node_info": {
+    "nodeInfo": {
       "type": "object",
       "properties": {
-        "source_code": {
+        "sourceCode": {
           "type": "string"
         },
-        "build_instructions": {
+        "buildInstructions": {
           "type": "string"
         }
       },
       "required": [
-        "source_code",
-        "build_instructions"
+        "sourceCode",
+        "buildInstructions"
       ]
     },
     "custom": {
@@ -90,12 +90,10 @@ to make sure that clients will be able to properly handle your definition.
           "type": "string"
         }
       },
-      "required": [
-      ]
+      "required": []
     }
   },
   "required": [
-    "id",
     "name",
     "networkId",
     "interface",
