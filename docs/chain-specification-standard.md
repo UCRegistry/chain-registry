@@ -59,6 +59,21 @@ to make sure that clients will be able to properly handle your definition.
         }
       ]
     },
+    "node_info": {
+      "type": "object",
+      "properties": {
+        "source_code": {
+          "type": "string"
+        },
+        "build_instructions": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "source_code",
+        "build_instructions"
+      ]
+    },
     "custom": {
       "type": "object",
       "properties": {
