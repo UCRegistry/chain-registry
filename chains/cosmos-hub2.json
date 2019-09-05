@@ -10,6 +10,7 @@
       "exponent": 6
     }
   ],
+  "seedNodes": [],
   "testRpc": [
     "http://178.128.246.154:26657"
   ],

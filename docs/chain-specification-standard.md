@@ -51,7 +51,15 @@ to make sure that clients will be able to properly handle your definition.
         }
       ]
     },
-    "test_rpc": {
+    "seedNodes": {
+      "type": "array",
+      "items": [
+        {
+          "type": "string"
+        }
+      ]
+    },
+    "testRpc": {
       "type": "array",
       "items": [
         {
@@ -89,8 +97,7 @@ to make sure that clients will be able to properly handle your definition.
         "moniker": {
           "type": "string"
         }
-      },
-      "required": []
+      }
     }
   },
   "required": [

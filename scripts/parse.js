@@ -41,6 +41,7 @@ fs.readdir(CHAINS_DIRECTORY, async function (err, files) {
           networkId: json.networkId,
           interface: json.interface,
           coins: newCoins,
+          seedNodes: json.seedNodes,
           testRpc: json.testRpc,
           nodeInfo: json.nodeInfo,
           custom: json.custom
