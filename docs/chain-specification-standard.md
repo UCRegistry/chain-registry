@@ -59,6 +59,21 @@ to make sure that clients will be able to properly handle your definition.
         }
       ]
     },
+    "nodeInfo": {
+      "type": "object",
+      "properties": {
+        "sourceCode": {
+          "type": "string"
+        },
+        "buildInstructions": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "sourceCode",
+        "buildInstructions"
+      ]
+    },
     "custom": {
       "type": "object",
       "properties": {
@@ -75,12 +90,10 @@ to make sure that clients will be able to properly handle your definition.
           "type": "string"
         }
       },
-      "required": [
-      ]
+      "required": []
     }
   },
   "required": [
-    "id",
     "name",
     "networkId",
     "interface",
