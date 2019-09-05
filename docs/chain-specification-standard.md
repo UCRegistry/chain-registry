@@ -51,7 +51,7 @@ to make sure that clients will be able to properly handle your definition.
         }
       ]
     },
-    "rpc": {
+    "test_rpc": {
       "type": "array",
       "items": [
         {
@@ -98,7 +98,6 @@ to make sure that clients will be able to properly handle your definition.
     "networkId",
     "interface",
     "coins",
-    "rpc",
     "custom"
   ]
 }

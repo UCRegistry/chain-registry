@@ -10,7 +10,7 @@
       "exponent": 18
     }
   ],
-  "rpc": [
+  "testRpc": [
     "https://public-node.testnet.rsk.co",
     "https://mycrypto.testnet.rsk.co"
   ],

@@ -10,7 +10,7 @@
       "exponent": 18
     }
   ],
-  "rpc": [
+  "testRpc": [
     "https://kovan.infura.io/v3/${INFURA_API_KEY}"
   ],
   "custom": {

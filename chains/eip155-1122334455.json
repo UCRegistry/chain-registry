@@ -10,7 +10,7 @@
       "exponent": 18
     }
   ],
-  "rpc": [
+  "testRpc": [
     "https://rpc.iposlab.com",
     "https://rpc2.iposlab.com"
   ],

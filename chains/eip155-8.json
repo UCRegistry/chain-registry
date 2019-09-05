@@ -10,7 +10,7 @@
       "exponent": 18
     }
   ],
-  "rpc": [
+  "testRpc": [
     "https://pyrus2.ubiqscan.io"
   ],
   "custom": {

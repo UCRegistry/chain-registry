@@ -11,7 +11,7 @@
         "exponent": 18
       }
     ],
-    "rpc": [
+    "testRpc": [
       "https://mainnet.infura.io/v3/${INFURA_API_KEY}",
       "https://api.mycryptoapi.com/eth"
     ],
@@ -32,7 +32,7 @@
         "exponent": 18
       }
     ],
-    "rpc": [
+    "testRpc": [
       "https://dai.poa.network"
     ],
     "custom": {
@@ -52,7 +52,7 @@
         "exponent": 18
       }
     ],
-    "rpc": [
+    "testRpc": [
       "https://api.einc.io/jsonrpc/mainnet"
     ],
     "custom": {
@@ -72,7 +72,7 @@
         "exponent": 18
       }
     ],
-    "rpc": [
+    "testRpc": [
       "https://mainnet-rpc.thundercore.com"
     ],
     "custom": {
@@ -92,7 +92,7 @@
         "exponent": 18
       }
     ],
-    "rpc": [
+    "testRpc": [
       "https://api.metadium.com/prod"
     ],
     "custom": {
@@ -112,7 +112,7 @@
         "exponent": 18
       }
     ],
-    "rpc": [
+    "testRpc": [
       "https://rpc.iposlab.com",
       "https://rpc2.iposlab.com"
     ],
@@ -133,7 +133,7 @@
         "exponent": 18
       }
     ],
-    "rpc": [
+    "testRpc": [
       "https://api.metadium.com/dev"
     ],
     "custom": {
@@ -153,7 +153,7 @@
         "exponent": 18
       }
     ],
-    "rpc": [
+    "testRpc": [
       "https://rpc.ether1.org"
     ],
     "custom": {
@@ -173,7 +173,7 @@
         "exponent": 18
       }
     ],
-    "rpc": [
+    "testRpc": [
       "https://churchill-rpc.pepchain.io"
     ],
     "custom": {
@@ -193,7 +193,7 @@
         "exponent": 18
       }
     ],
-    "rpc": [
+    "testRpc": [
       "https://node.sirius.lightstreams.io"
     ],
     "custom": {
@@ -213,7 +213,7 @@
         "exponent": 18
       }
     ],
-    "rpc": [
+    "testRpc": [
       "https://wallet.atheios.com:8797"
     ],
     "custom": {
@@ -233,7 +233,7 @@
         "exponent": 18
       }
     ],
-    "rpc": [
+    "testRpc": [
       "https://node.mainnet.lightstreams.io"
     ],
     "custom": {
@@ -253,7 +253,7 @@
         "exponent": 18
       }
     ],
-    "rpc": [
+    "testRpc": [
       "https://testnet-rpc.thundercore.com"
     ],
     "custom": {
@@ -273,7 +273,7 @@
         "exponent": 18
       }
     ],
-    "rpc": [
+    "testRpc": [
       "https://net.iolite.io"
     ],
     "custom": {
@@ -293,7 +293,7 @@
         "exponent": 18
       }
     ],
-    "rpc": [
+    "testRpc": [
       "https://tsfapi.europool.me"
     ],
     "custom": {
@@ -313,7 +313,7 @@
         "exponent": 18
       }
     ],
-    "rpc": [
+    "testRpc": [
       "https://jsonrpc.egem.io/custom"
     ],
     "custom": {
@@ -333,7 +333,7 @@
         "exponent": 18
       }
     ],
-    "rpc": [
+    "testRpc": [
       "https://node.expanse.tech"
     ],
     "custom": {
@@ -353,7 +353,7 @@
         "exponent": 18
       }
     ],
-    "rpc": [
+    "testRpc": [
       "https://remote.akroma.io"
     ],
     "custom": {
@@ -373,7 +373,7 @@
         "exponent": 18
       }
     ],
-    "rpc": [
+    "testRpc": [
       "https://node1.webchain.network"
     ],
     "custom": {
@@ -393,7 +393,7 @@
         "exponent": 18
       }
     ],
-    "rpc": [
+    "testRpc": [
       "https://rpc.sigma1.artis.network"
     ],
     "custom": {
@@ -413,7 +413,7 @@
         "exponent": 18
       }
     ],
-    "rpc": [
+    "testRpc": [
       "https://rpc.tau1.artis.network"
     ],
     "custom": {
@@ -433,7 +433,7 @@
         "exponent": 18
       }
     ],
-    "rpc": [
+    "testRpc": [
       "https://node.hpb.blue"
     ],
     "custom": {
@@ -453,7 +453,7 @@
         "exponent": 18
       }
     ],
-    "rpc": [
+    "testRpc": [
       "https://rpc.auxilium.global"
     ],
     "custom": {
@@ -473,7 +473,7 @@
         "exponent": 18
       }
     ],
-    "rpc": [
+    "testRpc": [
       "https://ropsten.infura.io/v3/${INFURA_API_KEY}"
     ],
     "custom": {
@@ -493,7 +493,7 @@
         "exponent": 18
       }
     ],
-    "rpc": [
+    "testRpc": [
       "https://public-node.rsk.co",
       "https://mycrypto.rsk.co"
     ],
@@ -514,7 +514,7 @@
         "exponent": 18
       }
     ],
-    "rpc": [
+    "testRpc": [
       "https://public-node.testnet.rsk.co",
       "https://mycrypto.testnet.rsk.co"
     ],
@@ -535,7 +535,7 @@
         "exponent": 18
       }
     ],
-    "rpc": [
+    "testRpc": [
       "https://api.esn.gonspool.com"
     ],
     "custom": {
@@ -555,7 +555,7 @@
         "exponent": 18
       }
     ],
-    "rpc": [
+    "testRpc": [
       "https://wallrpc.pirl.io"
     ],
     "custom": {
@@ -575,7 +575,7 @@
         "exponent": 18
       }
     ],
-    "rpc": [
+    "testRpc": [
       "https://rpc-bitfalls1.lisinski.online"
     ],
     "custom": {
@@ -595,7 +595,7 @@
         "exponent": 18
       }
     ],
-    "rpc": [
+    "testRpc": [
       "https://rinkeby.infura.io/v3/${INFURA_API_KEY}"
     ],
     "custom": {
@@ -615,7 +615,7 @@
         "exponent": 18
       }
     ],
-    "rpc": [
+    "testRpc": [
       "https://kovan.infura.io/v3/${INFURA_API_KEY}"
     ],
     "custom": {
@@ -635,7 +635,7 @@
         "exponent": 18
       }
     ],
-    "rpc": [
+    "testRpc": [
       "https://rpc.goerli.mudit.blog/",
       "https://rpc.slock.it/goerli ",
       "https://goerli.prylabs.net/"
@@ -657,7 +657,7 @@
         "exponent": 18
       }
     ],
-    "rpc": [],
+    "testRpc": [],
     "custom": {
       "chainId": 6,
       "networkId": 6
@@ -675,7 +675,7 @@
         "exponent": 18
       }
     ],
-    "rpc": [
+    "testRpc": [
       "https://rpc.gochain.io"
     ],
     "custom": {
@@ -695,7 +695,7 @@
         "exponent": 18
       }
     ],
-    "rpc": [
+    "testRpc": [
       "https://ethereumclassic.network"
     ],
     "custom": {
@@ -715,7 +715,7 @@
         "exponent": 18
       }
     ],
-    "rpc": [
+    "testRpc": [
       "https://c.onical.org",
       "https://tx.aquacha.in/api"
     ],
@@ -736,7 +736,7 @@
         "exponent": 18
       }
     ],
-    "rpc": [],
+    "testRpc": [],
     "custom": {
       "chainId": 62,
       "networkId": 2
@@ -754,7 +754,7 @@
         "exponent": 18
       }
     ],
-    "rpc": [
+    "testRpc": [
       "https://jsonrpc.ellaism.org"
     ],
     "custom": {
@@ -774,7 +774,7 @@
         "exponent": 18
       }
     ],
-    "rpc": [
+    "testRpc": [
       "https://rpc2.mix-blockchain.org:8647"
     ],
     "custom": {
@@ -794,7 +794,7 @@
         "exponent": 18
       }
     ],
-    "rpc": [
+    "testRpc": [
       "https://sokol.poa.network"
     ],
     "custom": {
@@ -814,7 +814,7 @@
         "exponent": 18
       }
     ],
-    "rpc": [
+    "testRpc": [
       "https://mewapi.musicoin.tw"
     ],
     "custom": {
@@ -834,7 +834,7 @@
         "exponent": 18
       }
     ],
-    "rpc": [
+    "testRpc": [
       "https://pyrus2.ubiqscan.io"
     ],
     "custom": {
@@ -854,7 +854,7 @@
         "exponent": 18
       }
     ],
-    "rpc": [
+    "testRpc": [
       "https://clo-geth.0xinfra.com"
     ],
     "custom": {
@@ -874,7 +874,7 @@
         "exponent": 18
       }
     ],
-    "rpc": [],
+    "testRpc": [],
     "custom": {
       "chainId": 821,
       "networkId": 2
@@ -892,7 +892,7 @@
         "exponent": 18
       }
     ],
-    "rpc": [
+    "testRpc": [
       "https://core.tomocoin.io"
     ],
     "custom": {
@@ -912,7 +912,7 @@
         "exponent": 18
       }
     ],
-    "rpc": [],
+    "testRpc": [],
     "custom": {
       "chainId": 9,
       "networkId": 2
@@ -930,7 +930,7 @@
         "exponent": 18
       }
     ],
-    "rpc": [
+    "testRpc": [
       "https://api.nepalblockchain.dev",
       "https://api.nepalblockchain.network"
     ],
@@ -951,7 +951,7 @@
         "exponent": 18
       }
     ],
-    "rpc": [
+    "testRpc": [
       "https://core.poa.network"
     ],
     "custom": {

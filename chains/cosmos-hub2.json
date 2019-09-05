@@ -10,7 +10,7 @@
       "exponent": 6
     }
   ],
-  "rpc": [
+  "testRpc": [
     "http://178.128.246.154:26657"
   ],
   "nodeInfo": {

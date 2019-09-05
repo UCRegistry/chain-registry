@@ -10,7 +10,7 @@
       "exponent": 18
     }
   ],
-  "rpc": [
+  "testRpc": [
     "https://net.iolite.io"
   ],
   "custom": {

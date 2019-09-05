@@ -10,7 +10,7 @@
       "exponent": 18
     }
   ],
-  "rpc": [
+  "testRpc": [
     "https://rpc-bitfalls1.lisinski.online"
   ],
   "custom": {

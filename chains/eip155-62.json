@@ -10,7 +10,7 @@
       "exponent": 18
     }
   ],
-  "rpc": [],
+  "testRpc": [],
   "custom": {
     "chainId": 62,
     "networkId": 2

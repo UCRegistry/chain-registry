@@ -10,7 +10,7 @@
       "exponent": 6
     }
   ],
-  "rpc": [
+  "testRpc": [
     "http://rpc.n01c01p1f2.commercio.network"
   ],
   "custom": {
