@@ -13,6 +13,10 @@
   "testRpc": [
     "http://178.128.246.154:26657"
   ],
+  "nodeInfo": {
+    "sourceCode": "https://github.com/cosmos/gaia",
+    "buildInstructions": "https://github.com/cosmos/gaia/tree/master/docs"
+  },
   "custom": {
     "lcd": "http://178.128.246.154:1317",
     "moniker": "cosmos-do-sentryz1"
