@@ -2,14 +2,16 @@
   "name": "Lisinski",
   "networkId": "eip155-385",
   "interface": "evm",
-  "coins": [
-    {
-      "name": "Lisinski Ether",
-      "symbol": "LISINSKI",
-      "denom": "wei",
-      "exponent": 18
-    }
-  ],
+  "coins": {
+    "list": [
+      {
+        "name": "Lisinski Ether",
+        "symbol": "LISINSKI",
+        "denom": "wei",
+        "exponent": 18
+      }
+    ]
+  },
   "testRpc": [
     "https://rpc-bitfalls1.lisinski.online"
   ],

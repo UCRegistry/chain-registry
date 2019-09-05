@@ -2,14 +2,16 @@
   "name": "ARTIS sigma1",
   "networkId": "eip155-246529",
   "interface": "evm",
-  "coins": [
-    {
-      "name": "ARTIS sigma1 Ether",
-      "symbol": "ATS",
-      "denom": "wei",
-      "exponent": 18
-    }
-  ],
+  "coins": {
+    "list": [
+      {
+        "name": "ARTIS sigma1 Ether",
+        "symbol": "ATS",
+        "denom": "wei",
+        "exponent": 18
+      }
+    ]
+  },
   "testRpc": [
     "https://rpc.sigma1.artis.network"
   ],

@@ -2,14 +2,16 @@
   "name": "Ethereum Mainnet",
   "networkId": "eip155-1",
   "interface": "evm",
-  "coins": [
-    {
-      "name": "Ether",
-      "symbol": "ETH",
-      "denom": "wei",
-      "exponent": 18
-    }
-  ],
+  "coins": {
+    "list": [
+      {
+        "name": "Ether",
+        "symbol": "ETH",
+        "denom": "wei",
+        "exponent": 18
+      }
+    ]
+  },
   "testRpc": [
     "https://mainnet.infura.io/v3/${INFURA_API_KEY}",
     "https://api.mycryptoapi.com/eth"

@@ -2,14 +2,19 @@
   "name": "Cosmos Hub",
   "networkId": "cosmoshub-2",
   "interface": "cosmos",
-  "coins": [
-    {
-      "name": "Atom",
-      "symbol": "ATM",
-      "denom": "uatom",
-      "exponent": 6
-    }
-  ],
+  "coins": {
+    "list": [
+      {
+        "name": "Atom",
+        "symbol": "ATM",
+        "denom": "uatom",
+        "exponent": 6,
+        "types": [
+          "bondable"
+        ]
+      }
+    ]
+  },
   "testRpc": [
     "http://178.128.246.154:26657"
   ],

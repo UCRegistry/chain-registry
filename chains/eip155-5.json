@@ -2,14 +2,16 @@
   "name": "Ethereum Testnet Görli",
   "networkId": "eip155-5",
   "interface": "evm",
-  "coins": [
-    {
-      "name": "Görli Ether",
-      "symbol": "GOR",
-      "denom": "wei",
-      "exponent": 18
-    }
-  ],
+  "coins": {
+    "list": [
+      {
+        "name": "Görli Ether",
+        "symbol": "GOR",
+        "denom": "wei",
+        "exponent": 18
+      }
+    ]
+  },
   "testRpc": [
     "https://rpc.goerli.mudit.blog/",
     "https://rpc.slock.it/goerli ",

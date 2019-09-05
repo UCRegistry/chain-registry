@@ -2,14 +2,16 @@
   "name": "Lightstreams Testnet",
   "networkId": "eip155-162",
   "interface": "evm",
-  "coins": [
-    {
-      "name": "Lightstreams PHT",
-      "symbol": "PHT",
-      "denom": "wei",
-      "exponent": 18
-    }
-  ],
+  "coins": {
+    "list": [
+      {
+        "name": "Lightstreams PHT",
+        "symbol": "PHT",
+        "denom": "wei",
+        "exponent": 18
+      }
+    ]
+  },
   "testRpc": [
     "https://node.sirius.lightstreams.io"
   ],

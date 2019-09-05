@@ -2,14 +2,16 @@
   "name": "Webchain",
   "networkId": "eip155-24484",
   "interface": "evm",
-  "coins": [
-    {
-      "name": "Webchain Ether",
-      "symbol": "WEB",
-      "denom": "wei",
-      "exponent": 18
-    }
-  ],
+  "coins": {
+    "list": [
+      {
+        "name": "Webchain Ether",
+        "symbol": "WEB",
+        "denom": "wei",
+        "exponent": 18
+      }
+    ]
+  },
   "testRpc": [
     "https://node1.webchain.network"
   ],

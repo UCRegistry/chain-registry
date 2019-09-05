@@ -29,18 +29,22 @@ fs.readdir(CHAINS_DIRECTORY, async function (err, files) {
       if (fileStat.isFile() && ext === '.json') {
         let json = require(filePath)
 
-        let newCoins = json.coins.map(coin => ({
+        let newCoinsList = json.coins.list.map(coin => ({
           name: coin.name,
           symbol: coin.symbol,
           denom: coin.denom,
-          exponent: coin.exponent
+          exponent: coin.exponent,
+          types: coin.types
         }))
 
         let newJson = {
           name: json.name,
           networkId: json.networkId,
           interface: json.interface,
-          coins: newCoins,
+          coins: {
+            defaultTypes: json.coins.defaultTypes,
+            list: newCoinsList
+          },
           testRpc: json.testRpc,
           nodeInfo: json.nodeInfo,
           custom: json.custom

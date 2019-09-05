@@ -2,14 +2,16 @@
   "name": "Ethereum Classic Testnet",
   "networkId": "eip155-62",
   "interface": "evm",
-  "coins": [
-    {
-      "name": "Ethereum Classic Testnet Ether",
-      "symbol": "TETC",
-      "denom": "wei",
-      "exponent": 18
-    }
-  ],
+  "coins": {
+    "list": [
+      {
+        "name": "Ethereum Classic Testnet Ether",
+        "symbol": "TETC",
+        "denom": "wei",
+        "exponent": 18
+      }
+    ]
+  },
   "testRpc": [],
   "custom": {
     "chainId": 62,

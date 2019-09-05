@@ -2,14 +2,16 @@
   "name": "Ubiq Network Mainnet",
   "networkId": "eip155-8",
   "interface": "evm",
-  "coins": [
-    {
-      "name": "Ubiq Ether",
-      "symbol": "UBQ",
-      "denom": "wei",
-      "exponent": 18
-    }
-  ],
+  "coins": {
+    "list": [
+      {
+        "name": "Ubiq Ether",
+        "symbol": "UBQ",
+        "denom": "wei",
+        "exponent": 18
+      }
+    ]
+  },
   "testRpc": [
     "https://pyrus2.ubiqscan.io"
   ],

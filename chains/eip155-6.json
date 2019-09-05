@@ -2,14 +2,16 @@
   "name": "Ethereum Classic Testnet Kotti",
   "networkId": "eip155-6",
   "interface": "evm",
-  "coins": [
-    {
-      "name": "Kotti Ether",
-      "symbol": "KOT",
-      "denom": "wei",
-      "exponent": 18
-    }
-  ],
+  "coins": {
+    "list": [
+      {
+        "name": "Kotti Ether",
+        "symbol": "KOT",
+        "denom": "wei",
+        "exponent": 18
+      }
+    ]
+  },
   "testRpc": [],
   "custom": {
     "chainId": 6,

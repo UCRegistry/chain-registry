@@ -2,14 +2,16 @@
   "name": "PepChain Churchill",
   "networkId": "eip155-13371337",
   "interface": "evm",
-  "coins": [
-    {
-      "name": "PepChain Churchill Ether",
-      "symbol": "TPEP",
-      "denom": "wei",
-      "exponent": 18
-    }
-  ],
+  "coins": {
+    "list": [
+      {
+        "name": "PepChain Churchill Ether",
+        "symbol": "TPEP",
+        "denom": "wei",
+        "exponent": 18
+      }
+    ]
+  },
   "testRpc": [
     "https://churchill-rpc.pepchain.io"
   ],

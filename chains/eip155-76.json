@@ -2,14 +2,16 @@
   "name": "Mix",
   "networkId": "eip155-76",
   "interface": "evm",
-  "coins": [
-    {
-      "name": "Mix Ether",
-      "symbol": "MIX",
-      "denom": "wei",
-      "exponent": 18
-    }
-  ],
+  "coins": {
+    "list": [
+      {
+        "name": "Mix Ether",
+        "symbol": "MIX",
+        "denom": "wei",
+        "exponent": 18
+      }
+    ]
+  },
   "testRpc": [
     "https://rpc2.mix-blockchain.org:8647"
   ],

@@ -2,14 +2,16 @@
   "name": "Ethereum Testnet Kovan",
   "networkId": "eip155-42",
   "interface": "evm",
-  "coins": [
-    {
-      "name": "Kovan Ether",
-      "symbol": "KOV",
-      "denom": "wei",
-      "exponent": 18
-    }
-  ],
+  "coins": {
+    "list": [
+      {
+        "name": "Kovan Ether",
+        "symbol": "KOV",
+        "denom": "wei",
+        "exponent": 18
+      }
+    ]
+  },
   "testRpc": [
     "https://kovan.infura.io/v3/${INFURA_API_KEY}"
   ],

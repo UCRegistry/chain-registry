@@ -2,14 +2,16 @@
   "name": "Ubiq Network Testnet",
   "networkId": "eip155-9",
   "interface": "evm",
-  "coins": [
-    {
-      "name": "Ubiq Testnet Ether",
-      "symbol": "TUBQ",
-      "denom": "wei",
-      "exponent": 18
-    }
-  ],
+  "coins": {
+    "list": [
+      {
+        "name": "Ubiq Testnet Ether",
+        "symbol": "TUBQ",
+        "denom": "wei",
+        "exponent": 18
+      }
+    ]
+  },
   "testRpc": [],
   "custom": {
     "chainId": 9,

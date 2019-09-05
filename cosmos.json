@@ -3,14 +3,16 @@
     "name": "Commercio.network Testnet 1001",
     "networkId": "commercio-testnet1001",
     "interface": "cosmos",
-    "coins": [
-      {
-        "name": "Commercio",
-        "symbol": "CNT",
-        "denom": "ucommercio",
-        "exponent": 6
-      }
-    ],
+    "coins": {
+      "list": [
+        {
+          "name": "Commercio",
+          "symbol": "CNT",
+          "denom": "ucommercio",
+          "exponent": 6
+        }
+      ]
+    },
     "testRpc": [
       "http://rpc.n01c01p1f2.commercio.network"
     ],
@@ -23,14 +25,19 @@
     "name": "Cosmos Hub",
     "networkId": "cosmoshub-2",
     "interface": "cosmos",
-    "coins": [
-      {
-        "name": "Atom",
-        "symbol": "ATM",
-        "denom": "uatom",
-        "exponent": 6
-      }
-    ],
+    "coins": {
+      "list": [
+        {
+          "name": "Atom",
+          "symbol": "ATM",
+          "denom": "uatom",
+          "exponent": 6,
+          "types": [
+            "bondable"
+          ]
+        }
+      ]
+    },
     "testRpc": [
       "http://178.128.246.154:26657"
     ],

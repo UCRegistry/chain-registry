@@ -2,14 +2,16 @@
   "name": "ARTIS tau1",
   "networkId": "eip155-246785",
   "interface": "evm",
-  "coins": [
-    {
-      "name": "ARTIS tau1 Ether",
-      "symbol": "ATS",
-      "denom": "wei",
-      "exponent": 18
-    }
-  ],
+  "coins": {
+    "list": [
+      {
+        "name": "ARTIS tau1 Ether",
+        "symbol": "ATS",
+        "denom": "wei",
+        "exponent": 18
+      }
+    ]
+  },
   "testRpc": [
     "https://rpc.tau1.artis.network"
   ],

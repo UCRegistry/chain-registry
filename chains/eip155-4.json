@@ -2,14 +2,16 @@
   "name": "Ethereum Testnet Rinkeby",
   "networkId": "eip155-4",
   "interface": "evm",
-  "coins": [
-    {
-      "name": "Rinkeby Ether",
-      "symbol": "RIN",
-      "denom": "wei",
-      "exponent": 18
-    }
-  ],
+  "coins": {
+    "list": [
+      {
+        "name": "Rinkeby Ether",
+        "symbol": "RIN",
+        "denom": "wei",
+        "exponent": 18
+      }
+    ]
+  },
   "testRpc": [
     "https://rinkeby.infura.io/v3/${INFURA_API_KEY}"
   ],

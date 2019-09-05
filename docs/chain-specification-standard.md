@@ -24,31 +24,55 @@ to make sure that clients will be able to properly handle your definition.
       ]
     },
     "coins": {
-      "type": "array",
-      "items": [
-        {
-          "type": "object",
-          "properties": {
-            "name": {
+      "type": "object",
+      "properties": {
+        "defaultTypes": {
+          "type": "array",
+          "items": [
+            {
               "type": "string"
-            },
-            "symbol": {
-              "type": "string"
-            },
-            "denom": {
-              "type": "string"
-            },
-            "exponent": {
-              "type": "integer"
             }
-          },
-          "required": [
-            "name",
-            "symbol",
-            "denom",
-            "exponent"
+          ]
+        },
+        "list": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "symbol": {
+                  "type": "string"
+                },
+                "denom": {
+                  "type": "string"
+                },
+                "types": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "string"
+                    }
+                  ]
+                },
+                "exponent": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "name",
+                "symbol",
+                "denom",
+                "exponent"
+              ]
+            }
           ]
         }
+      },
+      "required": [
+        "list"
       ]
     },
     "test_rpc": {
@@ -89,8 +113,7 @@ to make sure that clients will be able to properly handle your definition.
         "moniker": {
           "type": "string"
         }
-      },
-      "required": []
+      }
     }
   },
   "required": [

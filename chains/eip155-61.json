@@ -2,14 +2,16 @@
   "name": "Ethereum Classic Mainnet",
   "networkId": "eip155-61",
   "interface": "evm",
-  "coins": [
-    {
-      "name": "Ethereum Classic Ether",
-      "symbol": "ETC",
-      "denom": "wei",
-      "exponent": 18
-    }
-  ],
+  "coins": {
+    "list": [
+      {
+        "name": "Ethereum Classic Ether",
+        "symbol": "ETC",
+        "denom": "wei",
+        "exponent": 18
+      }
+    ]
+  },
   "testRpc": [
     "https://ethereumclassic.network"
   ],

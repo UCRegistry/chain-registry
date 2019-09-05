@@ -2,14 +2,16 @@
   "name": "POA Network Core",
   "networkId": "eip155-99",
   "interface": "evm",
-  "coins": [
-    {
-      "name": "POA Network Core Ether",
-      "symbol": "SKL",
-      "denom": "wei",
-      "exponent": 18
-    }
-  ],
+  "coins": {
+    "list": [
+      {
+        "name": "POA Network Core Ether",
+        "symbol": "SKL",
+        "denom": "wei",
+        "exponent": 18
+      }
+    ]
+  },
   "testRpc": [
     "https://core.poa.network"
   ],

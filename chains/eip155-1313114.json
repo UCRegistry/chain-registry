@@ -2,14 +2,16 @@
   "name": "Ether-1",
   "networkId": "eip155-1313114",
   "interface": "evm",
-  "coins": [
-    {
-      "name": "Ether-1 Ether",
-      "symbol": "ETHO",
-      "denom": "wei",
-      "exponent": 18
-    }
-  ],
+  "coins": {
+    "list": [
+      {
+        "name": "Ether-1 Ether",
+        "symbol": "ETHO",
+        "denom": "wei",
+        "exponent": 18
+      }
+    ]
+  },
   "testRpc": [
     "https://rpc.ether1.org"
   ],

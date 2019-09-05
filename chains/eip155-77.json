@@ -2,14 +2,16 @@
   "name": "POA Network Sokol",
   "networkId": "eip155-77",
   "interface": "evm",
-  "coins": [
-    {
-      "name": "POA Sokol Ether",
-      "symbol": "POA",
-      "denom": "wei",
-      "exponent": 18
-    }
-  ],
+  "coins": {
+    "list": [
+      {
+        "name": "POA Sokol Ether",
+        "symbol": "POA",
+        "denom": "wei",
+        "exponent": 18
+      }
+    ]
+  },
   "testRpc": [
     "https://sokol.poa.network"
   ],

@@ -2,14 +2,16 @@
   "name": "RSK Mainnet",
   "networkId": "eip155-30",
   "interface": "evm",
-  "coins": [
-    {
-      "name": "RSK Mainnet Ether",
-      "symbol": "RSK",
-      "denom": "wei",
-      "exponent": 18
-    }
-  ],
+  "coins": {
+    "list": [
+      {
+        "name": "RSK Mainnet Ether",
+        "symbol": "RSK",
+        "denom": "wei",
+        "exponent": 18
+      }
+    ]
+  },
   "testRpc": [
     "https://public-node.rsk.co",
     "https://mycrypto.rsk.co"

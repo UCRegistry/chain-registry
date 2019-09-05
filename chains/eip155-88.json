@@ -2,14 +2,16 @@
   "name": "TomoChain",
   "networkId": "eip155-88",
   "interface": "evm",
-  "coins": [
-    {
-      "name": "TomoChain Ether",
-      "symbol": "TOMO",
-      "denom": "wei",
-      "exponent": 18
-    }
-  ],
+  "coins": {
+    "list": [
+      {
+        "name": "TomoChain Ether",
+        "symbol": "TOMO",
+        "denom": "wei",
+        "exponent": 18
+      }
+    ]
+  },
   "testRpc": [
     "https://core.tomocoin.io"
   ],
