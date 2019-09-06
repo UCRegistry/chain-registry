@@ -24,55 +24,39 @@ to make sure that clients will be able to properly handle your definition.
       ]
     },
     "coins": {
-      "type": "object",
-      "properties": {
-        "defaultTypes": {
-          "type": "array",
-          "items": [
-            {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "name": {
               "type": "string"
-            }
-          ]
-        },
-        "list": {
-          "type": "array",
-          "items": [
-            {
-              "type": "object",
-              "properties": {
-                "name": {
+            },
+            "symbol": {
+              "type": "string"
+            },
+            "denom": {
+              "type": "string"
+            },
+            "exponent": {
+              "type": "integer"
+            },
+            "properties": {
+              "type": "array",
+              "items": [
+                {
                   "type": "string"
-                },
-                "symbol": {
-                  "type": "string"
-                },
-                "denom": {
-                  "type": "string"
-                },
-                "types": {
-                  "type": "array",
-                  "items": [
-                    {
-                      "type": "string"
-                    }
-                  ]
-                },
-                "exponent": {
-                  "type": "integer"
                 }
-              },
-              "required": [
-                "name",
-                "symbol",
-                "denom",
-                "exponent"
               ]
             }
+          },
+          "required": [
+            "name",
+            "symbol",
+            "denom",
+            "exponent"
           ]
         }
-      },
-      "required": [
-        "list"
       ]
     },
     "seedNodes": {
@@ -83,7 +67,7 @@ to make sure that clients will be able to properly handle your definition.
         }
       ]
     },
-    "testRpc": {
+    "testRpcs": {
       "type": "array",
       "items": [
         {
