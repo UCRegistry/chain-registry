@@ -10,7 +10,7 @@
       "exponent": 18
     }
   ],
-  "testRpc": [
+  "testRpcs": [
     "https://rpc.gochain.io"
   ],
   "custom": {
