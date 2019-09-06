@@ -40,6 +40,14 @@ to make sure that clients will be able to properly handle your definition.
             },
             "exponent": {
               "type": "integer"
+            },
+            "properties": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
             }
           },
           "required": [
@@ -59,7 +67,7 @@ to make sure that clients will be able to properly handle your definition.
         }
       ]
     },
-    "testRpc": {
+    "testRpcs": {
       "type": "array",
       "items": [
         {
