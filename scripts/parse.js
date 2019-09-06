@@ -28,7 +28,8 @@ fs.readdir(CHAINS_DIRECTORY, async function (err, files) {
           name: coin.name,
           symbol: coin.symbol,
           denom: coin.denom,
-          exponent: coin.exponent
+          exponent: coin.exponent,
+          properties: coin.properties
         }))
 
         let newJson = {
