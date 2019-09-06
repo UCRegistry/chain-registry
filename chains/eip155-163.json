@@ -2,17 +2,15 @@
   "name": "Lightstreams Mainnet",
   "networkId": "eip155-163",
   "interface": "evm",
-  "coins": {
-    "list": [
-      {
-        "name": "Lightstreams PHT",
-        "symbol": "PHT",
-        "denom": "wei",
-        "exponent": 18
-      }
-    ]
-  },
-  "testRpc": [
+  "coins": [
+    {
+      "name": "Lightstreams PHT",
+      "symbol": "PHT",
+      "denom": "wei",
+      "exponent": 18
+    }
+  ],
+  "testRpcs": [
     "https://node.mainnet.lightstreams.io"
   ],
   "custom": {

@@ -2,17 +2,15 @@
   "name": "Expanse Network",
   "networkId": "eip155-2",
   "interface": "evm",
-  "coins": {
-    "list": [
-      {
-        "name": "Expanse Network Ether",
-        "symbol": "EXP",
-        "denom": "wei",
-        "exponent": 18
-      }
-    ]
-  },
-  "testRpc": [
+  "coins": [
+    {
+      "name": "Expanse Network Ether",
+      "symbol": "EXP",
+      "denom": "wei",
+      "exponent": 18
+    }
+  ],
+  "testRpcs": [
     "https://node.expanse.tech"
   ],
   "custom": {

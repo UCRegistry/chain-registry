@@ -2,17 +2,15 @@
   "name": "Atheios",
   "networkId": "eip155-1620",
   "interface": "evm",
-  "coins": {
-    "list": [
-      {
-        "name": "Atheios Ether",
-        "symbol": "ATH",
-        "denom": "wei",
-        "exponent": 18
-      }
-    ]
-  },
-  "testRpc": [
+  "coins": [
+    {
+      "name": "Atheios Ether",
+      "symbol": "ATH",
+      "denom": "wei",
+      "exponent": 18
+    }
+  ],
+  "testRpcs": [
     "https://wallet.atheios.com:8797"
   ],
   "custom": {

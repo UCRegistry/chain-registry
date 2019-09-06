@@ -75,7 +75,15 @@ to make sure that clients will be able to properly handle your definition.
         "list"
       ]
     },
-    "test_rpc": {
+    "seedNodes": {
+      "type": "array",
+      "items": [
+        {
+          "type": "string"
+        }
+      ]
+    },
+    "testRpc": {
       "type": "array",
       "items": [
         {

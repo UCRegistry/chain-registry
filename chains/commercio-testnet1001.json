@@ -2,17 +2,15 @@
   "name": "Commercio.network Testnet 1001",
   "networkId": "commercio-testnet1001",
   "interface": "cosmos",
-  "coins": {
-    "list": [
-      {
-        "name": "Commercio",
-        "symbol": "CNT",
-        "denom": "ucommercio",
-        "exponent": 6
-      }
-    ]
-  },
-  "testRpc": [
+  "coins": [
+    {
+      "name": "Commercio",
+      "symbol": "CNT",
+      "denom": "ucommercio",
+      "exponent": 6
+    }
+  ],
+  "testRpcs": [
     "http://rpc.n01c01p1f2.commercio.network"
   ],
   "custom": {

@@ -2,17 +2,15 @@
   "name": "EtherInc",
   "networkId": "eip155-101",
   "interface": "evm",
-  "coins": {
-    "list": [
-      {
-        "name": "EtherInc Ether",
-        "symbol": "ETI",
-        "denom": "wei",
-        "exponent": 18
-      }
-    ]
-  },
-  "testRpc": [
+  "coins": [
+    {
+      "name": "EtherInc Ether",
+      "symbol": "ETI",
+      "denom": "wei",
+      "exponent": 18
+    }
+  ],
+  "testRpcs": [
     "https://api.einc.io/jsonrpc/mainnet"
   ],
   "custom": {

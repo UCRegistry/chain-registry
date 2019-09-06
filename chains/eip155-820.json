@@ -2,17 +2,15 @@
   "name": "Callisto Mainnet",
   "networkId": "eip155-820",
   "interface": "evm",
-  "coins": {
-    "list": [
-      {
-        "name": "Callisto Mainnet Ether",
-        "symbol": "CLO",
-        "denom": "wei",
-        "exponent": 18
-      }
-    ]
-  },
-  "testRpc": [
+  "coins": [
+    {
+      "name": "Callisto Mainnet Ether",
+      "symbol": "CLO",
+      "denom": "wei",
+      "exponent": 18
+    }
+  ],
+  "testRpcs": [
     "https://clo-geth.0xinfra.com"
   ],
   "custom": {

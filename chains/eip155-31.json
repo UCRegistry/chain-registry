@@ -2,17 +2,15 @@
   "name": "RSK Testnet",
   "networkId": "eip155-31",
   "interface": "evm",
-  "coins": {
-    "list": [
-      {
-        "name": "RSK Testnet Ether",
-        "symbol": "TRSK",
-        "denom": "wei",
-        "exponent": 18
-      }
-    ]
-  },
-  "testRpc": [
+  "coins": [
+    {
+      "name": "RSK Testnet Ether",
+      "symbol": "TRSK",
+      "denom": "wei",
+      "exponent": 18
+    }
+  ],
+  "testRpcs": [
     "https://public-node.testnet.rsk.co",
     "https://mycrypto.testnet.rsk.co"
   ],

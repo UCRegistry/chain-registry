@@ -2,17 +2,15 @@
   "name": "Ethereum Testnet Ropsten",
   "networkId": "eip155-3",
   "interface": "evm",
-  "coins": {
-    "list": [
-      {
-        "name": "Ropsten Ether",
-        "symbol": "ROP",
-        "denom": "wei",
-        "exponent": 18
-      }
-    ]
-  },
-  "testRpc": [
+  "coins": [
+    {
+      "name": "Ropsten Ether",
+      "symbol": "ROP",
+      "denom": "wei",
+      "exponent": 18
+    }
+  ],
+  "testRpcs": [
     "https://ropsten.infura.io/v3/${INFURA_API_KEY}"
   ],
   "custom": {

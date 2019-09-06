@@ -2,17 +2,15 @@
   "name": "Nepal Blockchain Network",
   "networkId": "eip155-977",
   "interface": "evm",
-  "coins": {
-    "list": [
-      {
-        "name": "Nepal Blockchain Network Ether",
-        "symbol": "YETI",
-        "denom": "wei",
-        "exponent": 18
-      }
-    ]
-  },
-  "testRpc": [
+  "coins": [
+    {
+      "name": "Nepal Blockchain Network Ether",
+      "symbol": "YETI",
+      "denom": "wei",
+      "exponent": 18
+    }
+  ],
+  "testRpcs": [
     "https://api.nepalblockchain.dev",
     "https://api.nepalblockchain.network"
   ],

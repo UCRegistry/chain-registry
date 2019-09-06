@@ -2,17 +2,15 @@
   "name": "GoChain",
   "networkId": "eip155-60",
   "interface": "evm",
-  "coins": {
-    "list": [
-      {
-        "name": "GoChain Ether",
-        "symbol": "GO",
-        "denom": "wei",
-        "exponent": 18
-      }
-    ]
-  },
-  "testRpc": [
+  "coins": [
+    {
+      "name": "GoChain Ether",
+      "symbol": "GO",
+      "denom": "wei",
+      "exponent": 18
+    }
+  ],
+  "testRpcs": [
     "https://rpc.gochain.io"
   ],
   "custom": {

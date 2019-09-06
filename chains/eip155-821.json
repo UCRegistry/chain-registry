@@ -2,17 +2,15 @@
   "name": "Callisto Testnet",
   "networkId": "eip155-821",
   "interface": "evm",
-  "coins": {
-    "list": [
-      {
-        "name": "Callisto Testnet Ether",
-        "symbol": "TCLO",
-        "denom": "wei",
-        "exponent": 18
-      }
-    ]
-  },
-  "testRpc": [],
+  "coins": [
+    {
+      "name": "Callisto Testnet Ether",
+      "symbol": "TCLO",
+      "denom": "wei",
+      "exponent": 18
+    }
+  ],
+  "testRpcs": [],
   "custom": {
     "chainId": 821,
     "networkId": 2

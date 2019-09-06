@@ -2,17 +2,15 @@
   "name": "Auxilium Network Mainnet",
   "networkId": "eip155-28945486",
   "interface": "evm",
-  "coins": {
-    "list": [
-      {
-        "name": "Auxilium coin",
-        "symbol": "AUX",
-        "denom": "wei",
-        "exponent": 18
-      }
-    ]
-  },
-  "testRpc": [
+  "coins": [
+    {
+      "name": "Auxilium coin",
+      "symbol": "AUX",
+      "denom": "wei",
+      "exponent": 18
+    }
+  ],
+  "testRpcs": [
     "https://rpc.auxilium.global"
   ],
   "custom": {

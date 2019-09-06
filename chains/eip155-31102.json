@@ -2,17 +2,15 @@
   "name": "Ethersocial Network",
   "networkId": "eip155-31102",
   "interface": "evm",
-  "coins": {
-    "list": [
-      {
-        "name": "Ethersocial Network Ether",
-        "symbol": "ESN",
-        "denom": "wei",
-        "exponent": 18
-      }
-    ]
-  },
-  "testRpc": [
+  "coins": [
+    {
+      "name": "Ethersocial Network Ether",
+      "symbol": "ESN",
+      "denom": "wei",
+      "exponent": 18
+    }
+  ],
+  "testRpcs": [
     "https://api.esn.gonspool.com"
   ],
   "custom": {

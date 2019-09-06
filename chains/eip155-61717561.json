@@ -2,17 +2,15 @@
   "name": "Aquachain",
   "networkId": "eip155-61717561",
   "interface": "evm",
-  "coins": {
-    "list": [
-      {
-        "name": "Aquachain Ether",
-        "symbol": "AQUA",
-        "denom": "wei",
-        "exponent": 18
-      }
-    ]
-  },
-  "testRpc": [
+  "coins": [
+    {
+      "name": "Aquachain Ether",
+      "symbol": "AQUA",
+      "denom": "wei",
+      "exponent": 18
+    }
+  ],
+  "testRpcs": [
     "https://c.onical.org",
     "https://tx.aquacha.in/api"
   ],

@@ -2,17 +2,15 @@
   "name": "Akaroma",
   "networkId": "eip155-200625",
   "interface": "evm",
-  "coins": {
-    "list": [
-      {
-        "name": "Akaroma Ether",
-        "symbol": "AKA",
-        "denom": "wei",
-        "exponent": 18
-      }
-    ]
-  },
-  "testRpc": [
+  "coins": [
+    {
+      "name": "Akaroma Ether",
+      "symbol": "AKA",
+      "denom": "wei",
+      "exponent": 18
+    }
+  ],
+  "testRpcs": [
     "https://remote.akroma.io"
   ],
   "custom": {

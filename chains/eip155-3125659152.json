@@ -2,17 +2,15 @@
   "name": "Pirl",
   "networkId": "eip155-3125659152",
   "interface": "evm",
-  "coins": {
-    "list": [
-      {
-        "name": "Pirl Ether",
-        "symbol": "PIRL",
-        "denom": "wei",
-        "exponent": 18
-      }
-    ]
-  },
-  "testRpc": [
+  "coins": [
+    {
+      "name": "Pirl Ether",
+      "symbol": "PIRL",
+      "denom": "wei",
+      "exponent": 18
+    }
+  ],
+  "testRpcs": [
     "https://wallrpc.pirl.io"
   ],
   "custom": {

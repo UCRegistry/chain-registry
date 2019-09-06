@@ -2,17 +2,15 @@
   "name": "EtherGem",
   "networkId": "eip155-1987",
   "interface": "evm",
-  "coins": {
-    "list": [
-      {
-        "name": "EtherGem Ether",
-        "symbol": "EGEM",
-        "denom": "wei",
-        "exponent": 18
-      }
-    ]
-  },
-  "testRpc": [
+  "coins": [
+    {
+      "name": "EtherGem Ether",
+      "symbol": "EGEM",
+      "denom": "wei",
+      "exponent": 18
+    }
+  ],
+  "testRpcs": [
     "https://jsonrpc.egem.io/custom"
   ],
   "custom": {

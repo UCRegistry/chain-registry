@@ -2,17 +2,15 @@
   "name": "IPOS Network",
   "networkId": "eip155-1122334455",
   "interface": "evm",
-  "coins": {
-    "list": [
-      {
-        "name": "IPOS Network Ether",
-        "symbol": "IPOS",
-        "denom": "wei",
-        "exponent": 18
-      }
-    ]
-  },
-  "testRpc": [
+  "coins": [
+    {
+      "name": "IPOS Network Ether",
+      "symbol": "IPOS",
+      "denom": "wei",
+      "exponent": 18
+    }
+  ],
+  "testRpcs": [
     "https://rpc.iposlab.com",
     "https://rpc2.iposlab.com"
   ],

@@ -2,17 +2,15 @@
   "name": "Metadium Testnet",
   "networkId": "eip155-12",
   "interface": "evm",
-  "coins": {
-    "list": [
-      {
-        "name": "Metadium Testnet Ether",
-        "symbol": "KAL",
-        "denom": "wei",
-        "exponent": 18
-      }
-    ]
-  },
-  "testRpc": [
+  "coins": [
+    {
+      "name": "Metadium Testnet Ether",
+      "symbol": "KAL",
+      "denom": "wei",
+      "exponent": 18
+    }
+  ],
+  "testRpcs": [
     "https://api.metadium.com/dev"
   ],
   "custom": {

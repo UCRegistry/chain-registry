@@ -2,17 +2,15 @@
   "name": "Metadium Mainnet",
   "networkId": "eip155-11",
   "interface": "evm",
-  "coins": {
-    "list": [
-      {
-        "name": "Metadium Mainnet Ether",
-        "symbol": "META",
-        "denom": "wei",
-        "exponent": 18
-      }
-    ]
-  },
-  "testRpc": [
+  "coins": [
+    {
+      "name": "Metadium Mainnet Ether",
+      "symbol": "META",
+      "denom": "wei",
+      "exponent": 18
+    }
+  ],
+  "testRpcs": [
     "https://api.metadium.com/prod"
   ],
   "custom": {

@@ -2,17 +2,15 @@
   "name": "IOLite",
   "networkId": "eip155-18289463",
   "interface": "evm",
-  "coins": {
-    "list": [
-      {
-        "name": "IOLite Ether",
-        "symbol": "ILT",
-        "denom": "wei",
-        "exponent": 18
-      }
-    ]
-  },
-  "testRpc": [
+  "coins": [
+    {
+      "name": "IOLite Ether",
+      "symbol": "ILT",
+      "denom": "wei",
+      "exponent": 18
+    }
+  ],
+  "testRpcs": [
     "https://net.iolite.io"
   ],
   "custom": {

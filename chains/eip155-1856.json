@@ -2,17 +2,15 @@
   "name": "Teslafunds",
   "networkId": "eip155-1856",
   "interface": "evm",
-  "coins": {
-    "list": [
-      {
-        "name": "Teslafunds Ether",
-        "symbol": "TSF",
-        "denom": "wei",
-        "exponent": 18
-      }
-    ]
-  },
-  "testRpc": [
+  "coins": [
+    {
+      "name": "Teslafunds Ether",
+      "symbol": "TSF",
+      "denom": "wei",
+      "exponent": 18
+    }
+  ],
+  "testRpcs": [
     "https://tsfapi.europool.me"
   ],
   "custom": {

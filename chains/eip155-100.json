@@ -2,17 +2,15 @@
   "name": "xDAI Chain",
   "networkId": "eip155-100",
   "interface": "evm",
-  "coins": {
-    "list": [
-      {
-        "name": "xDAI",
-        "symbol": "xDAI",
-        "denom": "wei",
-        "exponent": 18
-      }
-    ]
-  },
-  "testRpc": [
+  "coins": [
+    {
+      "name": "xDAI",
+      "symbol": "xDAI",
+      "denom": "wei",
+      "exponent": 18
+    }
+  ],
+  "testRpcs": [
     "https://dai.poa.network"
   ],
   "custom": {

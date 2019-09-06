@@ -2,17 +2,15 @@
   "name": "Musicoin",
   "networkId": "eip155-7762959",
   "interface": "evm",
-  "coins": {
-    "list": [
-      {
-        "name": "Musicoin",
-        "symbol": "MUSIC",
-        "denom": "wei",
-        "exponent": 18
-      }
-    ]
-  },
-  "testRpc": [
+  "coins": [
+    {
+      "name": "Musicoin",
+      "symbol": "MUSIC",
+      "denom": "wei",
+      "exponent": 18
+    }
+  ],
+  "testRpcs": [
     "https://mewapi.musicoin.tw"
   ],
   "custom": {

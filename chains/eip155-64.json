@@ -2,17 +2,15 @@
   "name": "Ellaism",
   "networkId": "eip155-64",
   "interface": "evm",
-  "coins": {
-    "list": [
-      {
-        "name": "Ellaism Ether",
-        "symbol": "ELLA",
-        "denom": "wei",
-        "exponent": 18
-      }
-    ]
-  },
-  "testRpc": [
+  "coins": [
+    {
+      "name": "Ellaism Ether",
+      "symbol": "ELLA",
+      "denom": "wei",
+      "exponent": 18
+    }
+  ],
+  "testRpcs": [
     "https://jsonrpc.ellaism.org"
   ],
   "custom": {
