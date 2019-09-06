@@ -11,7 +11,7 @@
         "exponent": 6
       }
     ],
-    "testRpc": [
+    "testRpcs": [
       "http://rpc.n01c01p1f2.commercio.network"
     ],
     "custom": {
@@ -32,7 +32,7 @@
       }
     ],
     "seedNodes": [],
-    "testRpc": [
+    "testRpcs": [
       "http://178.128.246.154:26657"
     ],
     "nodeInfo": {

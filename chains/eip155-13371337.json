@@ -10,7 +10,7 @@
       "exponent": 18
     }
   ],
-  "testRpc": [
+  "testRpcs": [
     "https://churchill-rpc.pepchain.io"
   ],
   "custom": {

@@ -42,7 +42,7 @@ fs.readdir(CHAINS_DIRECTORY, async function (err, files) {
           interface: json.interface,
           coins: newCoins,
           seedNodes: json.seedNodes,
-          testRpc: json.testRpc,
+          testRpcs: json.testRpcs,
           nodeInfo: json.nodeInfo,
           custom: json.custom
         }

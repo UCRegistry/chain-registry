@@ -11,7 +11,7 @@
     }
   ],
   "seedNodes": [],
-  "testRpc": [
+  "testRpcs": [
     "http://178.128.246.154:26657"
   ],
   "nodeInfo": {

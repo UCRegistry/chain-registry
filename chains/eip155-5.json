@@ -10,7 +10,7 @@
       "exponent": 18
     }
   ],
-  "testRpc": [
+  "testRpcs": [
     "https://rpc.goerli.mudit.blog/",
     "https://rpc.slock.it/goerli ",
     "https://goerli.prylabs.net/"
