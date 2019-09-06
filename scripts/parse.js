@@ -5,8 +5,7 @@ const {
   startSpinner,
   stopSpinner,
   stat,
-  writeJson,
-  saveList
+  writeJson
 } = require('./shared')
 
 fs.readdir(CHAINS_DIRECTORY, async function (err, files) {
