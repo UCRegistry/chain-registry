@@ -17,10 +17,6 @@ fs.readdir(CHAINS_DIRECTORY, async function (err, files) {
 
   startSpinner(`Verifying ${CHAINS_DIRECTORY} files`)
 
-  let all = []
-  let evm = []
-  let cosmos = []
-
   await Promise.all(
     files.map(async function (file, index) {
       const filePath = path.join(CHAINS_DIRECTORY, file)
@@ -47,22 +43,12 @@ fs.readdir(CHAINS_DIRECTORY, async function (err, files) {
         }
 
         await writeJson(filePath, newJson)
-        all.push(newJson)
-        if (newJson.interface.toLowerCase() === 'evm') {
-          evm.push(newJson)
-        } else if (newJson.interface.toLowerCase() === 'cosmos') {
-          cosmos.push(newJson)
-        }
       }
       return fileStat
     })
   )
 
   stopSpinner()
-
-  await saveList(all, 'chains')
-  await saveList(evm, 'evm')
-  await saveList(cosmos, 'cosmos')
 
   console.log(
     `\nSuccessfully parsed ${files.length} file${files.length > 1 ? 's' : ''}`
