@@ -17,7 +17,7 @@ async function processFiles (files) {
       if (fileStat.isFile() && ext === '.json') {
         let json = require(filePath)
 
-        let fileName = file.replace('.json', '')
+        let fileName = file.replace(/\.json$/, '', '')
         if (fileName !== json.networkId) {
           throw Error(`File name (${file}) and network id (${json.networkId}) do not match. Please fix this and retry.`)
         }
